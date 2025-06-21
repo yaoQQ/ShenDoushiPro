@@ -1,0 +1,26 @@
+ManifestFileVersion: 0
+CRC: 3592946717
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3643b1fc10107f2ffeba70528f553c2f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3643b1fc10107f2ffeba70528f553c2f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Projet/Projects_hot/BasePackage/Import_png/game/gamePanel/301@game_eliminate_moguai.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/rank/301@game_eliminate_btn_out.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/rank/301@game_eliminate_cancel.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/game/gamePanel/301@game_eliminate_balloon.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/game/gamePanel/301@game_eliminate_back.png
+Dependencies: []

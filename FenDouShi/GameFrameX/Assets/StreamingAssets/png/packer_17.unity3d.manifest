@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 3264328425
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e3c9b7711bf1f5c3e0831c97c52ddac6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e3c9b7711bf1f5c3e0831c97c52ddac6
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Projet/Projects_hot/BasePackage/Import_png/rank/17@user_lbs2_btn_guanzhusaishi_tab02.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/rank/17@user_lbs2_btn_guanzhusaishi_tab01.png
+Dependencies: []

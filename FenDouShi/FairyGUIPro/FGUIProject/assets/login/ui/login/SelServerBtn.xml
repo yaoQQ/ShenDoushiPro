@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="177,40" extention="Button" bgColor="#ff3399">
+  <controller name="button" pages="0,up,1,down,6,over,7,selectedOver" selected="2"/>
+  <displayList>
+    <image id="n1_isqr" name="n1" src="pyg616" fileName="atlas/Image/login2_08.png" xy="0,0" size="175,45" aspect="true">
+      <gearDisplay controller="button" pages="0,1,6,7"/>
+    </image>
+    <image id="n3_isqr" name="n3" src="pyg619" fileName="atlas/login/login2_01.png" pkg="y4b7yuun" xy="-5,-5" size="179,52" aspect="true" color="#66ff00">
+      <gearDisplay controller="button" pages="0,1,6"/>
+      <gearColor controller="button" pages="0,1" values="#ffffff|#6666ff" default="#66ff00"/>
+    </image>
+    <text id="n0_feeg" name="title" xy="-3,3" size="179,33" fontSize="20" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" singleLine="true" text="点击选择服务器...">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

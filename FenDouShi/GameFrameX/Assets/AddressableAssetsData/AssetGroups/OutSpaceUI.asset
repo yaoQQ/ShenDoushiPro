@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: OutSpaceUI
+  m_EditorClassIdentifier: 
+  m_GroupName: OutSpaceUI
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9ccf7e9c0fda8f14cb6307b43e07c708
+  m_SerializeEntries:
+  - m_GUID: 468c49147fdf32e4a977d785765a7967
+    m_Address: EnemybloodPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 852f99d4cf8c53d4ab1639b201001c8b
+    m_Address: GunView_OutSpace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 33fccb3deb38bbe41b744eb58c3e062f
+    m_Address: MainMenu_OutSpace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: d5dfe425440d3a94c81d4fa364c1429e
+    m_Address: PlayerbloodPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 10b84c8b910e5cb4fa3ebb40d69f77b0
+    m_Address: GunInfoTopPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: c4d3787415d2a814e98b5dd8a6e1cfe5
+    m_Address: GunListPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 6afcc095210efcd4f843da560ad75b76
+    m_Address: GunAttriPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: a8046343fe5f0b943b15a745759e9e48
+    m_Address: CharacterInfoTopPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 47bdc0c194abd754a9af07aaa4472d4d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 57c2fc4f20417864b97bb79b552110cd, type: 2}
+    - {fileID: 11400000, guid: 35affb38374afc746b10e01840906338, type: 2}

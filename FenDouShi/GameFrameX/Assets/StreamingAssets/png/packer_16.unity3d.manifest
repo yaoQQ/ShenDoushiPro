@@ -1,0 +1,79 @@
+ManifestFileVersion: 0
+CRC: 227903240
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 51e8e0cdeae1434fb5e80b2afbb973d9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 51e8e0cdeae1434fb5e80b2afbb973d9
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_tanchuang_bg@60x70x60x60.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_bg_blue_1280.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/game/game_rule/16@user_public2_loading000.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_boy_02.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_ucard.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_black_white.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_cd_haoyou01.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_eye_open.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_tanchuang_button_blue.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_mima_blue.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_more03.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/game/gamePanel/16@user_public2_touming00@20.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_pic_1000@21.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_touxiang_a_bg.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_yanzheng_blue.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_bg_zhezhou_black@20.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_caidanlan@30x30x30x50.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_bg_white@20.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/game/game_rule/16@user_public2_dikuang_bg_aa01@60.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_logo_01.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_cd_haoyou02.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_cd_game02.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_btn_a004a.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_button_zhifubao_small.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_line001.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_btn_a003c.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_iphone_blue.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_button_weixin_small.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_black.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_tanchuang_button_green.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_line000.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_dikuang_bg@80.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_cd_shop01.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_cd_hongbao02.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_cd_my02.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_jinbi.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_eye_close.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_touming00@20.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_girl_02.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_cd_my01.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_close_white.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_bg_shuliang2@44x43x44x34.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_line_blue01.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_cd_game01.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_btn_a003.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/game/game_rule/16@user_public2_btn_a001_green.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_cd_shop02.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_hongbao_jine.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_btn_a001_green.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_zuanshi.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_button_weixin_big.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_cd_hongbao01.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_cd_xiaoxi02.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_button_jia.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_cd_xiaoxi01.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_dikuang_bg_aa01@60.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_icon_close_h.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/load/16/16@user_public2_btn_a004b.png
+Dependencies: []

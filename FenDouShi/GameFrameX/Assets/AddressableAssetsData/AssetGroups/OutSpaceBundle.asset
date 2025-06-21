@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: OutSpaceBundle
+  m_EditorClassIdentifier: 
+  m_GroupName: OutSpaceBundle
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 181b442cc34513a43bdf7aa0da86a002
+  m_SerializeEntries:
+  - m_GUID: 1786203c4c230d048a78938eae11caa7
+    m_Address: boss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: f4a43c6c5adc43d478406f86dafbbbe9
+    m_Address: BossA0601p
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: de3fa7eb7379ed242b3ba756d9660b9c
+    m_Address: BulletGuidedMissile
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: c6caede261e1643438a2b86f32515bbe
+    m_Address: Enemy001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 518ade0bb7821984980cad17f89b4c87
+    m_Address: Enemy002
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 3d8f2456fb0ab8c47b5ba2f9626f25d4
+    m_Address: Enemy004
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: bcaef12f3554d7449bcd7893c26068f5
+    m_Address: EnemyMoveCircleAttrack
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: e86b5e7e58776e047b54309d359c91c0
+    m_Address: lightShipCircle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: a116ab5dd783cae4391dc3d2c9b802e9
+    m_Address: ShipA0303p_UI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 52096dceb358dd14284a5f0d3e7bb7ec
+    m_Address: ShipA0601p
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 9421c71fec0bf0e47beb767da05cd982
+    m_Address: Asteriod2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 7502b94a06769734cb1dfb2e2c756d0d
+    m_Address: Asteriod3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: cdd5e8d32ee3cee48ab5b3cf7548aaf9
+    m_Address: Asteriod4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: f3c6bc140503f4d4f8d1af611557c19c
+    m_Address: ScatterSingleShip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 47bdc0c194abd754a9af07aaa4472d4d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a2151810ab58a854ab21632fba635042, type: 2}
+    - {fileID: 11400000, guid: 2d4c87a8a1555c54fae3c18baf917027, type: 2}

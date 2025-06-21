@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c81740cf649f2d84c9fa5207dbb6e442, type: 3}
+  m_Name: luckyInfo
+  m_EditorClassIdentifier: 
+  currLevel: 0
+  attriType: 13
+  imagePath: lucky_Img
+  attriValueType: 2
+  addOrReduce: 0
+  attriValue: 0.1
+  descrip: "\u6BCF\u5F3A\u5316\u4E00\u5C42\uFF0C\u8FD0\u6C14@\uFF0C\u6700\u591A<color='red'>+30%</color>"
+  attriList:
+  - 5
+  - 10
+  - 20
+  - 30
+  - 40

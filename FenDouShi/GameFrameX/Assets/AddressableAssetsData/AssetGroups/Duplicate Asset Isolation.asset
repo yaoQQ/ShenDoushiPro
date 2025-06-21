@@ -1,0 +1,383 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Duplicate Asset Isolation
+  m_EditorClassIdentifier: 
+  m_GroupName: Duplicate Asset Isolation
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 96de4ba3aa8c2414bbdd53cbbbb3c265
+  m_SerializeEntries:
+  - m_GUID: 0406db5a14f94604a8c57ccfbc9f3b46
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlit.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04f54d0d5b589204c97d6dabff678c6a
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Dead/ShipDead1.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05966359fcc87aa45ac4ea77c894ad18
+    m_Address: Assets/Projet/Projects_hot/OutSpace/3DSkybox/Asteriod/Asteroid.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e5107c03a7594c4cb56cf1cc714cc5f
+    m_Address: Assets/Projet/Projects_hot/OutSpace/OutSpaceRoom/Shader/Ship/ShipRaceBoats.ShaderGraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 126f1d871d60cda4eb20f41c0de33577
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Effect/Matrial/Com_01m_BigSpot_Add.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 158a59926ccdbc64e9da57aaa9e2b00b
+    m_Address: Assets/Projet/Projects_hot/OutSpace/ShipAsset/Enemy004/Textures/Effects/Trail0301t_TrialLight.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f65e7b730bb41043bfa1651edbd203f
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Dead/Enemy002_Dead_Audio.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20403fef2c8dd2b49b544a76048f764e
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Bullet/LaserBullet/Materials/Com_01m_BigSpot_Addz.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23b7e9be92d90db4ebd39171f838dde3
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Shader/ShipEnemy01.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2abf7367f2bec6743956116b5ba9f4e5
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Import_png/rank/21@user_activity2_cue_daojishidi.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2af3fa4de5eb7104e90429875fbc1f67
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Dead/Enemy001_Dead_Audio.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 328151a788d31aa45a1c1053f49431e3
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Gun/BulletAlways.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36079c6ae9d036543b8ab46c82458508
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Texture/Skybox/diversespace-up.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36e335017ad71d54fbb10842863188ae
+    m_Address: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/FallbackShader.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37f18da1e624127469831e6c456dc237
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Texture/Skybox/diversespace-down.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3899282144260024da5b8e8229f49971
+    m_Address: Assets/Projet/Projects_hot/OutSpace/ShipAsset/CashShip/ShipD0101f.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cc741e91380dae46afa9c702a01c1ec
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Texture/Skybox/diversespace-front.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dcc579e15e8de343b8dd1a5a643e656
+    m_Address: Assets/Projet/Projects_hot/OutSpace/ShipAsset/Enemy004/Textures/Effects/function0501t_Dot.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40692cd30a48dc64cb1cdeb4ab2b2c30
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Effect/Texture/Effects/CommonResource/Common_001t.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42b8a5a0c50060443bd379f5a4c36400
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Gun/EnemyGunDiAudio2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5434e956322b042448772a5e8e867c33
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Gun/Gun Salve One Shot.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 544d6567d3b37884a9bb6898c8dc01fc
+    m_Address: Assets/Projet/Projects_hot/OutSpace/ShipAsset/ScatterShip/Models1/ShipA0301f.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ab76743577b0114f981dc000744c3aa
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Gun/Fire GunPressAudio.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63bea8c59746a9748b06a04355247af1
+    m_Address: Assets/Projet/Projects_hot/OutSpace/ShipAsset/AircraftCarrier/Texture1/shipA0701t_c.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 648756117f3dcb04aa9a7193ba44c533
+    m_Address: Assets/Projet/Projects_hot/OutSpace/ShipAsset/AircraftCarrier/Materials1/AircraftCarrier.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 662157716ef2b6840841e610138115a4
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Model/Geosphere40.dae
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69c5beb8d851bf648835fde2da661839
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Effect/Shader/Particle-Add.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c566ad9a12519c4a9688232313a5264
+    m_Address: Assets/Projet/Projects_hot/OutSpace/ShipAsset/Enemy004/Textures/Effects/Trail_ShipLine-01_T.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6de379e5985560243b921d7c73713df8
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Bullet/Matirals/Effects/Lightwave_02.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ef0861e7575c2c4390f138c4a09dceb
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Import_png/game/game_rule/15@user_game2_icon_close.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77bf80438557f724495e1273cd844c51
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Damage/explore1.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 783fe6d1dfbd5d447b2b08eb99cf207b
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Matrials/Effect/glow_dot_add.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b1bfb11d1bdb5447874f527a75b5842
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Effect/Shader/Particle-Add-ZTestAlways.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e4c63b9ff6136d4abb2f333288c838c
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Matrials/Effect/particle trail
+      additive.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f1246605f71e84419d757473bee50d0
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Damage/BossExplore.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82330ac2bd2f8004b8233de804631a96
+    m_Address: Assets/Projet/Projects_hot/OutSpace/3DSkybox/Asteriod/Asteroid Albedo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cae7fa3b9d2858478c7bc5c0d915868
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Damage/destroy.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d2ad026147743642b4e4824c2334f50
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Script/AnimatorFSM/Enemy/EnemyBoidAssert/BoidsMotionAnimator.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d2bb70cbf9db8d4da26e15b26e74248
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLit.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90f48f3590bb2e741b6d7ca1dab4ff17
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Import_png/load/Bottom.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 942c91c8f409aef42a22f0c214374289
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Bullet/Matirals/Effects/Explosion1011m_04.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a7c7749fe7e54cb8824cba351ceffe0
+    m_Address: Assets/Projet/Projects_hot/BasePackage/LensFlares/Textures/Ring.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b71ff87afc94e048b2430feb0a1dcd9
+    m_Address: Assets/Projet/Projects_hot/OutSpace/3DSkybox/Asteriod/Asteroid.dae
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cfeb621a09bf894db17e5ee528bb1c5
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Texture/Skybox/diversespace-right.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e06df6d37f94534887bba9b1892616f
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Bullet/Shader/ExplosionsParticleBlendLight+Alpha.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e56dad525a4b1e4dbe5a1a07f8897d5
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Script/AnimatorFSM/Enemy/EnemyScatterShip/ScatterShipAnimator
+      1.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4be220830e90ea4eb88b48b7fd376ce
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Matrials/DiverseSpaceMaterial.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5783757b9aafc74297e2a76978a910d
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Damage/SmallExploreAudio.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad87e706985b9924c9c5cf8196d36968
+    m_Address: Assets/Projet/Projects_hot/OutSpace/ShipAsset/Enemy004/Materials/Effects/Trail_ShipLine-01_M_Add.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b69fc3c1f8fa91443bb22478edfa5232
+    m_Address: Assets/Projet/Projects_hot/OutSpace/ShipAsset/ScatterShip/Texture/ShipA0301t_n.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc96d1d89dca7974a8d18aca537cd5e5
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Texture/Skybox/diversespace-left.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2c1b05cbec484af59dbad0093e9ed9b
+    m_Address: Assets/Projet/Projects_hot/BasePackage/LensFlares/Textures/PartialRIng.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6eb95f9d11d23745a343e47b24509b4
+    m_Address: Assets/Projet/Projects_hot/OutSpace/ShipAsset/AircraftCarrier/Texture1/shipA0701t_n.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caf37e968494209459d9d3724a407579
+    m_Address: Assets/Projet/Projects_hot/OutSpace/ShipAsset/Enemy004/Materials/Effects/Trail0101m_BigDot.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf75d6889c060c94da33a1f84dda02ff
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Bullet/Matirals/My/BulletBall.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d22d6709548722c438b7868559744abb
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Shader/Particles Additive Intensify.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d362c6dc60444ca49a6786e5e8ac2b2b
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Hit/HitAudio3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3cc87e8bb73b4d4d9a965c27e18fc5b
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Damage/explore3.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8a473ec9fdb6254d8aa343618aa7947
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Bullet/Texture/Bullet1032t.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de89b3d2c25031c41ac74fb1d0e238db
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Import_png/game/game_rule/16@user_public2_loading000.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2bc1f7e7cd8d114dadb820e1c709f6b
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Hit/hit3.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6e9a19c3678ded42a3bc431ebef7dbd
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb4a2a93520462148957fb491923f497
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Gun/FastGunOneShot.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f91a97c192e1d294c900ad8474a0f51c
+    m_Address: Assets/Projet/Projects_hot/OutSpace/ShipAsset/BezierShip/Models1/ShipA0201f.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb13ae2a8faedfc4bac0e602a5b4911a
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Audio/Dead/ShipDead2.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb6454398b7d6594c9905eea96f27d99
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Bullet/Matirals/My/Bullet1010m
+      4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc0e248a658684c3e8fe68d5931552b9
+    m_Address: Assets/Projet/Projects_hot/BasePackage/LensFlares/Textures/Shimmer.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fce5822e0bcc26140be8d8d987b4d7b3
+    m_Address: Assets/Projet/Projects_hot/BasePackage/Texture/Skybox/diversespace-back.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd8172e6607a32c429d5de05f67e45c3
+    m_Address: Assets/Projet/Projects_hot/BasePackage/LensFlares/Sun.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe3cb8585e70c1147ae897885fe9d042
+    m_Address: Assets/Projet/Projects_hot/OutSpace/ShipAsset/Enemy004/Materials/Effects/Trail0301m_TrialLight.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe65c3eb4fa07114c8b52d3babe85ded
+    m_Address: Assets/Projet/Projects_hot/OutSpace/Effect/Texture/Effects/Explosion1002t_03.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 47bdc0c194abd754a9af07aaa4472d4d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 661b63ac54f91c74ca7f85385639ef3c, type: 2}
+    - {fileID: 11400000, guid: 1dbb8d9522599f947be9284960ae3efa, type: 2}

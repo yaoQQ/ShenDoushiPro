@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: OutSpaceGun
+  m_EditorClassIdentifier: 
+  m_GroupName: OutSpaceGun
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2af11218d5a49aa428dca9039171bae3
+  m_SerializeEntries:
+  - m_GUID: 6deb021b951622f40b17f524d54435eb
+    m_Address: AOEGun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 92bd750fad1d5654b97892d5640569fd
+    m_Address: DefendGun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: f932dd372202c9946a9ec27fc9ebdbca
+    m_Address: DisturbGun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 993785cd30e1b9241864dda0b391fd26
+    m_Address: FastGun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 296092d6edeb60f4385c9b4834c6d8b5
+    m_Address: LightGun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: d7083bb99d41ea74dad0888a0ef9554b
+    m_Address: normalGun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 22bc3e3d569cd0d44bdb86f5ffb014db
+    m_Address: Radar
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 9ffc31c840d0a724db42608c0cc223aa
+    m_Address: AutoFastGun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: dc9dd542a8830f249b83128f8bcfbecd
+    m_Address: UVAGun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 47bdc0c194abd754a9af07aaa4472d4d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7384b6ff846bf2e4c85e6ab81b1b2be6, type: 2}
+    - {fileID: 11400000, guid: 17d4ab2486aaaa1479ba98bed9e80a1e, type: 2}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="370,60" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <displayList>
+    <image id="n6_isqr" name="n6" src="pyg616" fileName="atlas/Image/login2_08.png" xy="0,-8" size="368,72"/>
+    <image id="n5_isqr" name="n5" src="pyg619" fileName="atlas/login/login2_01.png" pkg="y4b7yuun" xy="-3,-8" size="377,71" color="#66ff00">
+      <gearDisplay controller="button" pages="2"/>
+    </image>
+    <text id="n4_feeg" name="title" xy="77,9" size="267,38" fontSize="25" autoSize="none" text="测试服务器"/>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1280,720">
+  <displayList>
+    <image id="n0_pyg6" name="n0" src="pyg629" fileName="atlas/images/loading_01.png" pkg="y4b7yuun" xy="-2,-303" size="1282,1024"/>
+    <component id="n2_pyg6" name="updateProgress" src="pyg64u" fileName="ui/launch/LaunchProgress.xml" xy="60,680" size="1134,29">
+      <ProgressBar value="8" max="100"/>
+    </component>
+    <text id="n1_pyg6" name="updateTxt" xy="515,681" pivot="0.5,0.5" size="175,35" fontSize="25" color="#ffffff" strokeColor="#000000" text="正在检查更新..."/>
+  </displayList>
+</component>

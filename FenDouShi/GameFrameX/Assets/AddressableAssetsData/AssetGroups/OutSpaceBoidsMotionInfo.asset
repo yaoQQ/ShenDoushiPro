@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: OutSpaceBoidsMotionInfo
+  m_EditorClassIdentifier: 
+  m_GroupName: OutSpaceBoidsMotionInfo
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a788d0ac9251b5b48ae05ed1e739c5ae
+  m_SerializeEntries:
+  - m_GUID: 4588aa504d3782b49b0a23b736846672
+    m_Address: CircleMotionType1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 17802b2f47472b64f879009124970746
+    m_Address: CircleMotionType5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 84bc1475cc7898c45a2356749b14728a
+    m_Address: CircleMotionType2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: aa089dbfbba53ca4abdc5004e4b557eb
+    m_Address: CircleMotionType3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: b922859534bb0c043bd64076c9c74f2c
+    m_Address: CircleMotionType4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 83fc85f222ad7dc4f98af97b977a679d
+    m_Address: CircleMotionType6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 9f9cc9ad9e6bd6246a451777e84ca579
+    m_Address: CircleMotionType7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 070bee12d8437554a8058ffcb2478a87
+    m_Address: CircleMotionType8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 046fa556795a9ba459507c60e581e5da
+    m_Address: CircleMotionType9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 9209c2aa0760ade4b8aa03861023f5ab
+    m_Address: PowMotionType2D1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 6acb331bac9f94e4cb628d87aa46b737
+    m_Address: PowMotionType2D2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: fa34b2ae1d934d147b8ccdd5e45ebb7f
+    m_Address: PowMotionType2D3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: fff54132adc9e174a8ca4b662ea01e14
+    m_Address: PowMotionType2D4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 23feaaf1700718b4b8d684c7b43bd4c7
+    m_Address: PowMotionType2D5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: ca20daa68c4eba645aacfdcf2f8c2e28
+    m_Address: PowMotionType2D6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 4ab82d5349acfaa41b4756c1dc5a8bf2
+    m_Address: PowMotionType2D7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 47c18f046b3b6584da4e96577a4b96a8
+    m_Address: PowMotionType2D8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 0ae782dadd0124d4e914f41dfc91641c
+    m_Address: PowMotionType2D9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 5687c93bd97eda44c9aafb6ff0b6dd95
+    m_Address: MotionBehaviournBehaviour
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 47bdc0c194abd754a9af07aaa4472d4d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4ea530e2817234c4ca834eb8aa2391c3, type: 2}
+    - {fileID: 11400000, guid: 9cd88f3ca1560794a9a001062b5885e1, type: 2}

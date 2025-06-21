@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: OutSpaceEffect
+  m_EditorClassIdentifier: 
+  m_GroupName: OutSpaceEffect
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fb1273a7dea862846ac5db53b0638d6e
+  m_SerializeEntries:
+  - m_GUID: e38d23378811a5542b2bbe3314d662dd
+    m_Address: AOEExplosion
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: f190250ea0be9064db89f3b407a3618c
+    m_Address: blackHole
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: ae73150cf8c84c54a8bf700cc0ba1a2d
+    m_Address: Bullet1070p_Green
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 47fdd21466a92c143acfbcb996b5cb27
+    m_Address: DamageEffect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 392ac3326099b214e8f858b27c64890c
+    m_Address: DisturbEffect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: bc204f6f03f466348afe2bad6804c1eb
+    m_Address: EnemyDefend
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 747e99dbb7bb6694dbb27951936db3f5
+    m_Address: Explosion1000p
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 8de9d348a8acbc949b7e90e1db5839a7
+    m_Address: Explosion1029p
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: b7072e55d50062543993701e03dc7306
+    m_Address: Explosion1030p
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 8243289dee61b144dbf023ee67162572
+    m_Address: Explosion1035p
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 650c1d55434c4f84fbe736f672cb4a5a
+    m_Address: ExplosionA0201p
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 58f40dbe95c238844b0ffcf691ac7789
+    m_Address: Hit1023p
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 6426f276e67cdfa4f8366e082ffcbca3
+    m_Address: smallHit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 47bdc0c194abd754a9af07aaa4472d4d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7056031f4678e3b4cbec17d1ec9537b4, type: 2}
+    - {fileID: 11400000, guid: 8ffb35781772fd544838c5ee011e9d9c, type: 2}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: static_fairygui
+  m_EditorClassIdentifier: 
+  m_GroupName: static_fairygui
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a3893aa91532d74448de64d8bdf3d1f7
+  m_SerializeEntries:
+  - m_GUID: 1625a214433294c4f992ef4831ffcf0d
+    m_Address: common_atlas0.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d281af523de19b43a657ab20f850c18
+    m_Address: launch_fui.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 490eb9a88c215a54188c9d3d77ea8178
+    m_Address: common_fui.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 47bdc0c194abd754a9af07aaa4472d4d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0e086f02faf6d13489342b95c90bb6d5, type: 2}
+    - {fileID: 11400000, guid: 543ae9c3a43a2a744b048b0c038ed82d, type: 2}

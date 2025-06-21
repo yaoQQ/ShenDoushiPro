@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,29" extention="ProgressBar">
+  <displayList>
+    <image id="n1_sx9g" name="n0" src="sx9gi57" fileName="atlas/common/ui_role_11.png" pkg="y4b7yuun" xy="0,0" size="50,29">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n0_sx9g" name="bar" src="sx9gi56" fileName="atlas/common/ui_role_10.png" pkg="y4b7yuun" xy="0,0" size="50,29"/>
+  </displayList>
+  <ProgressBar/>
+</component>

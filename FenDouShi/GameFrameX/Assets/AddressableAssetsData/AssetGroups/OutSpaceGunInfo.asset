@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: OutSpaceGunInfo
+  m_EditorClassIdentifier: 
+  m_GroupName: OutSpaceGunInfo
+  m_Data:
+    m_SerializedData: []
+  m_GUID: acb3d73f0999fb0428e3bc57e08cded2
+  m_SerializeEntries:
+  - m_GUID: e8f8e4f0ff17f3248ae8884279b57c2b
+    m_Address: AOEGunInfo_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 5432fd495f66be64992f3e8b56295ec0
+    m_Address: FastGunInfo_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: ee2a0d2993d7bb2448895ec529db1318
+    m_Address: LightGunInfo_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 623d9d79e8ea68d45aa0ec7e7f60f99a
+    m_Address: UVAGunInfo_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 497b8b19d949ece4e8e5c7fadc8c87ed
+    m_Address: DefendGunInfo_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 8add6c09c45d21540a31015e5642b430
+    m_Address: FastGunInfo_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 92c5caea2e5952541aba4fb6eb969ca4
+    m_Address: FastGunInfo_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: cbb906f49adb0044aad67c242748a32a
+    m_Address: FastGunInfo_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 8681e73c57e7c4242b122a14c7560219
+    m_Address: FastGunInfo_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: b8f5795857038b34e9cc3068479d183d
+    m_Address: AOEGunInfo_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: b533b6d5afbcc17458968d4333173b6b
+    m_Address: AOEGunInfo_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 2c64f2feb47e10f4980dc9a119f0323b
+    m_Address: AOEGunInfo_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 1dde61a42783e634a852cf37c44e1340
+    m_Address: AOEGunInfo_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: fd04d99ddcfb637468fde08fdbdfc417
+    m_Address: DisturbGunInfo_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 6c80f483adbd7914eb5be5842eb030ae
+    m_Address: UVANormalGunInfo_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: cc396ccc30f799f4a8b171d76df4b2eb
+    m_Address: UVAGunInfo_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 93514ac8efa02b2468b4213a27ae8c08
+    m_Address: UVAGunInfo_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 9f2adf39f398123429b277b514d53246
+    m_Address: UVAGunInfo_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 7fd5dd291e571324d920c6b0faae010d
+    m_Address: UVAGunInfo_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 47bdc0c194abd754a9af07aaa4472d4d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8204db5fa500d6b4d8cd8556d5d9f84e, type: 2}
+    - {fileID: 11400000, guid: 2207915a178602d4b893fa32d6b09ce6, type: 2}

@@ -1,0 +1,13 @@
+﻿using System;
+
+public class Singleton2<T> where T : class
+{
+    private static readonly T instance = (T)Activator.CreateInstance(typeof(T), true);
+    public static T Instance
+    {
+        get
+        {
+            return instance;
+        }
+    }
+}

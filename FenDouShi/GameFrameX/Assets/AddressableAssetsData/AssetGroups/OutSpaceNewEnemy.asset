@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: OutSpaceNewEnemy
+  m_EditorClassIdentifier: 
+  m_GroupName: OutSpaceNewEnemy
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ce2c4c91139623842bb313cf8095964a
+  m_SerializeEntries:
+  - m_GUID: 2f8761c6c71f79d4fae0980a76bc2c6f
+    m_Address: CashShip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: c8b9b74e63f91354fa151c1060d97541
+    m_Address: ScatterShip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 4b3a2024cab833f47bfcfe9915a9a770
+    m_Address: CashBoss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 6aae9409dc855d3499f513394c364e6e
+    m_Address: Asteriod1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: c5779ccbc62f5484b8fab577a60755b4
+    m_Address: UVAShip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 8aaec352ef072ab4bb85ecf1921e5ad3
+    m_Address: Wave1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 81a039b45e341fe428a88ac0dc957643
+    m_Address: Wave2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 56a4384540ccaa84ea400773a4c52832
+    m_Address: Wave3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: b3407d8fb198b6841893f7d47903ca07
+    m_Address: BezierShip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  - m_GUID: 499bff4259d1a334aaab008d89e7f7e4
+    m_Address: LevelInfoPanel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - OutSpacePackage
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 47bdc0c194abd754a9af07aaa4472d4d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 12e6502891f5f864c904f3fe5defa2ac, type: 2}
+    - {fileID: 11400000, guid: 595f486c5cf927b45a60951d9661a187, type: 2}

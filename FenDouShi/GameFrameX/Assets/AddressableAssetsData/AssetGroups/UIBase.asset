@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UIBase
+  m_EditorClassIdentifier: 
+  m_GroupName: UIBase
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7b56c47419a56154bafffe4b2f7a3690
+  m_SerializeEntries:
+  - m_GUID: e502499af59580145a8a84c05d6319bd
+    m_Address: common_popup_window_panel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BasePackage
+  - m_GUID: 2cda1ceef975dad44b22dae77c8916dc
+    m_Address: common_top_tips_panel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BasePackage
+  - m_GUID: ef79827ec1360844693a471b967525c8
+    m_Address: common_waitting_panel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BasePackage
+  - m_GUID: e2e9fb8f3c8020047ad24b7c4fbb1dc1
+    m_Address: Loading
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BasePackage
+  - m_GUID: 8d0cc02504605a040b47889f8078775a
+    m_Address: login_panel2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BasePackage
+  - m_GUID: 573573ef769c7904682e6bd3f83dfa89
+    m_Address: platform_game_panel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BasePackage
+  - m_GUID: 0008d7cba7d47d94690be6c1b962d76b
+    m_Address: platform_game_rule_panel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BasePackage
+  - m_GUID: e21db4c7169c15a4aa7932acbde1f14e
+    m_Address: platform_game_update_panel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BasePackage
+  - m_GUID: 9ad6cff60397c2545af564d15f49369c
+    m_Address: platform_active_rank_panel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BasePackage
+  - m_GUID: 3892a35c1d011424cb05d91ab130432e
+    m_Address: common_top_cost_panel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - BasePackage
+  - m_GUID: f1c7f75268b8bd348b9c081a2d849afb
+    m_Address: platform_mall_panel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 47bdc0c194abd754a9af07aaa4472d4d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 56f1a34df6f46644bbdff98e20f432e1, type: 2}
+    - {fileID: 11400000, guid: b1fb10f0ba4c9b747b9886fb26d56126, type: 2}

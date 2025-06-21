@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ef5122d249e89e4980e9ec70eb4790e, type: 3}
+  m_Name: UVAGunInfo_3
+  m_EditorClassIdentifier: 
+  BulletName: UVAShip
+  level: 1
+  coolTime: 1
+  BulletTotolCount: 3
+  gunNum: 0
+  BulletCollTimeTotal: 10
+  ButtleSpeed: 3
+  ButtleDamage: 4
+  timeLife: 3
+  Distance: 0
+  DefendLife: 0
+  Descrip: "\u83B7\u5F97\u4E00\u4E2A\u62A4\u822A\u65E0\u4EBA\u673A\uFF08SSS\uFF09\uFF01"

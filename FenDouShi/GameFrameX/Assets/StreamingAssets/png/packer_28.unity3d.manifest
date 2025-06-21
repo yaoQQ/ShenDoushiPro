@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 3950198264
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0cbd95b55dcde955d26d49cbc507cbfb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2d8df09e698f722ada1caa03d3413830
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0cbd95b55dcde955d26d49cbc507cbfb
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Projet/Projects_hot/BasePackage/Import_png/game/gamePanel/28@user_game_icon_bg.png
+- Assets/Projet/Projects_hot/BasePackage/Import_png/game/gamePanel/28@user_game_icon_000_moren.png
+Dependencies: []

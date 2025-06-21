@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="y4b7yuun">
+  <resources>
+    <image id="pyg62d" name="ui_comm_btn_d.png" path="/atlas/common/" exported="true" scale="9grid" scale9grid="18,8,36,16"/>
+    <image id="pyg62g" name="ui_comm_btn_a.png" path="/atlas/common/" exported="true" scale="9grid" scale9grid="36,13,72,26"/>
+    <image id="pyg62j" name="ui_comm_bg_underlay_h.png" path="/atlas/common/" exported="true"/>
+    <image id="pyg62n" name="ui_comm_bg_underlay_d.png" path="/atlas/common/" exported="true" scale="9grid" scale9grid="101,53,72,76"/>
+    <image id="pyg629" name="loading_01.png" path="/atlas/images/" exported="true"/>
+    <component id="pyg64q" name="UINoticeWin.xml" path="/ui/common/" exported="true"/>
+    <component id="pyg64s" name="CommonBtn.xml" path="/ui/common/" exported="true"/>
+    <component id="10wwi54" name="LoadingProgress.xml" path="/ui/common/"/>
+    <image id="sx9gi56" name="ui_role_10.png" path="/atlas/common/" exported="true" scale="9grid" scale9grid="11,7,22,14"/>
+    <image id="sx9gi57" name="ui_role_11.png" path="/atlas/common/" exported="true" scale="9grid" scale9grid="5,7,10,14"/>
+    <image id="pyg619" name="login2_01.png" path="/atlas/login/" exported="true" scale="9grid" scale9grid="70,20,140,40"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>
