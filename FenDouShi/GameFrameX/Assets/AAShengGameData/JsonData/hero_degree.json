@@ -1,0 +1,5 @@
+{
+"1000":{"id":1000,"plan":1,"degree":0,"levelLimit":5,"cost":[[10000001,25]],"attrAdd":1000},
+"1001":{"id":1001,"plan":1,"degree":1,"levelLimit":10,"cost":[[10000001,25]],"attrAdd":1000},
+"1002":{"id":1002,"plan":1,"degree":2,"levelLimit":0,"cost":[],"attrAdd":1000}
+}

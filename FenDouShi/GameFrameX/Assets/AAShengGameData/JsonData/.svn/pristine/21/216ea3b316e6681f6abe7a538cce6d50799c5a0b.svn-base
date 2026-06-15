@@ -1,0 +1,7 @@
+{
+"1":{"id":1,"name":"风之试炼","funcId":37001,"openTime":[1,3,5],"camp":[1,2,3],"openSweep":1,"freeSweepCnt":2,"paySweepCnt":3,"paySweepCost":[[10000001,20],[10000001,30],[10000001,50],[10000001,100],[10000001,200]]},
+"2":{"id":2,"name":"水之试炼","funcId":37002,"openTime":[1,3,5],"camp":[1,2,3],"openSweep":1,"freeSweepCnt":2,"paySweepCnt":3,"paySweepCost":[[10000001,20],[10000001,30],[10000001,50],[10000001,100],[10000001,200]]},
+"3":{"id":3,"name":"火之试炼","funcId":37003,"openTime":[1,3,5],"camp":[1,2,3],"openSweep":1,"freeSweepCnt":2,"paySweepCnt":3,"paySweepCost":[[10000001,20],[10000001,30],[10000001,50],[10000001,100],[10000001,200]]},
+"4":{"id":4,"name":"光暗试炼","funcId":37004,"openTime":[1,3,5],"camp":[1,2,3],"openSweep":1,"freeSweepCnt":2,"paySweepCnt":3,"paySweepCost":[[10000001,20],[10000001,30],[10000001,50],[10000001,100],[10000001,200]]},
+"5":{"id":5,"name":"勇气试炼","funcId":37005,"openTime":[1,3,5],"camp":[1,2,3],"openSweep":1,"freeSweepCnt":2,"paySweepCnt":3,"paySweepCost":[[10000001,20],[10000001,30],[10000001,50],[10000001,100],[10000001,200]]}
+}

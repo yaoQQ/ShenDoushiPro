@@ -1,0 +1,4 @@
+{
+"901":{"modelId":901,"name":"近战兵","fightResourceId":6001,"star":5,"level":20,"attackId":1,"skillId":2,"passiveIds":[3]},
+"902":{"modelId":902,"name":"远程兵","fightResourceId":6002,"star":5,"level":20,"attackId":4,"skillId":5,"passiveIds":[6]}
+}

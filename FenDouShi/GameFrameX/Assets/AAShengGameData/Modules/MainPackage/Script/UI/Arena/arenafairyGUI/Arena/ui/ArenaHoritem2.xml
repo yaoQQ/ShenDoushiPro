@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="797,487">
+  <displayList>
+    <image id="n29_sem6" name="n29" src="q19vk" fileName="atlas/jingji/jingji_img_huodong_2.png" xy="0,0" size="797,487" group="sem6r"/>
+    <loader id="n49_q19v" name="BgLoad" xy="0,0" size="797,487" group="sem6r" url="ui://n8s4flryq19vk"/>
+    <image id="n53_q19v" name="n53" src="q19v3" fileName="atlas/jingji/jingji_board_daojud.png" xy="360,334" size="364,110" group="sem6r"/>
+    <image id="n31_sem6" name="n31" src="q19vm" fileName="temp/道具图标 拷贝 7_2.png" xy="403,345" size="276,94" group="sem6r"/>
+    <list id="n50_q19v" name="goodList" xy="398,342" size="535,160" group="sem6r" scale="0.58,0.58" layout="row" overflow="scroll" colGap="-4" defaultItem="ui://y4b7yuunhskui63">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n32_sem6" name="n32" src="q19vn" fileName="temp/组 24.png" xy="130,99" size="170,170" group="sem6r"/>
+    <image id="n33_sem6" name="titleBg" src="q19vo" fileName="atlas/jingji/jingji_word_sysl.png" xy="103,137" size="240,62" group="sem6r"/>
+    <loader id="n51_q19v" name="titleBgLoad" xy="103,137" size="240,62" group="sem6r" url="ui://n8s4flryq19vo"/>
+    <image id="n52_q19v" name="n52" src="q19v9" fileName="atlas/jingji/jingji_board_shijian.png" xy="49,204" size="351,36" group="sem6r"/>
+    <text id="n35_sem6" name="infoText" xy="63,203" size="321,34" group="sem6r" font="ui://x8i06oedrf0d1" fontSize="26" color="#f7f8ff" align="center" vAlign="middle" autoSize="none" text="距预赛结束：2天 10:20:50"/>
+    <image id="n54_e0dt" name="maskBg" src="q19v1d" fileName="atlas/jingji/jingji_img_zhezhao_2.png" xy="0,0" size="797,487" group="sem6r" alpha="0.5"/>
+    <component id="n60_e0dt" name="FightLog" src="e0dt2c" fileName="ui/FightLog.xml" xy="311,131" group="sem6r"/>
+    <group id="sem6r" name="组 13" xy="0,0" size="933,502"/>
+    <image id="n55_e0dt" name="maskBg" src="q19v16" fileName="atlas/jingji/jingji_img_zhezhao_1.png" xy="-13,12" size="853,491" group="n59_e0dt" alpha="0.5"/>
+    <image id="n56_e0dt" name="n56" src="q19v1j" fileName="atlas/lilian/lilian_img_suo.png" xy="368,194" size="138,138" group="n59_e0dt"/>
+    <image id="n57_e0dt" name="n57" src="q19v17" fileName="atlas/jingji/jingji_board_kqtj.png" xy="187,326" size="509,53" group="n59_e0dt"/>
+    <text id="n58_e0dt" name="lockInfo" xy="241,337" size="390,34" group="n59_e0dt" font="ui://x8i06oedrf0d1" fontSize="26" color="#fd4859" align="center" vAlign="middle" autoSize="none" text="等级30级且服务器开启第1天解锁"/>
+    <group id="n59_e0dt" name="maskGroup" xy="-13,12" size="853,491" advanced="true"/>
+  </displayList>
+</component>

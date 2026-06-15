@@ -1,0 +1,5 @@
+{
+"1":{"id":1,"group":1,"bg":"bg_meirifuben","icon":"word_meirifuben","rewards":[[30000018,1],[10000001,1]],"functionid":0},
+"2":{"id":2,"group":1,"bg":"bg_shilianta","icon":"word_shilianta","rewards":[[30000018,1],[10000001,1]],"functionid":0},
+"3":{"id":3,"group":2,"bg":"bg_jingjichang","icon":"word_jingjichang","rewards":[[30000018,1],[10000001,1]],"functionid":39001}
+}

@@ -1,0 +1,10 @@
+{
+"1":{"id":1,"heroId":150000001,"attrs":[[1,2000],[2,700],[3,300],[4,300]],"level":10,"degree":1,"star":2,"levelRange":[30,60]},
+"2":{"id":2,"heroId":150000002,"attrs":[[1,200],[2,10],[3,3],[4,3]],"level":10,"degree":1,"star":2,"levelRange":[30,60]},
+"3":{"id":3,"heroId":150000003,"attrs":[[1,200],[2,50],[3,3],[4,3]],"level":10,"degree":1,"star":2,"levelRange":[30,60]},
+"4":{"id":4,"heroId":150000004,"attrs":[[1,200],[2,50],[3,3],[4,3]],"level":10,"degree":1,"star":3,"levelRange":[30,60]},
+"5":{"id":5,"heroId":150000005,"attrs":[[1,200],[2,50],[3,3],[4,3]],"level":10,"degree":1,"star":3,"levelRange":[30,60]},
+"6":{"id":6,"heroId":150000006,"attrs":[[1,200],[2,50],[3,3],[4,3]],"level":10,"degree":1,"star":3,"levelRange":[30,60]},
+"7":{"id":7,"heroId":150000010,"attrs":[[1,200],[2,50],[3,3],[4,3]],"level":10,"degree":1,"star":4,"levelRange":[30,60]},
+"99":{"id":99,"heroId":150000099,"attrs":[[1,2000],[2,200],[3,30],[4,30]],"level":10,"degree":1,"star":4,"levelRange":[30,60]}
+}

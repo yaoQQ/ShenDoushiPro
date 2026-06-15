@@ -1,0 +1,6 @@
+{
+"1":{"type":1,"name":"法宝副本","nameRes":"fuben_word_fabao","funcId":0,"tabIcon":"fuben_img_fabao","freeSweep":2,"buySweep":5,"buySweepCost":[[10000001,20],[10000001,30],[10000001,50],[10000001,100],[10000001,200]]},
+"2":{"type":2,"name":"金币副本","nameRes":"fuben_word_jinbi","funcId":0,"tabIcon":"fuben_img_jinbi","freeSweep":2,"buySweep":5,"buySweepCost":[[10000001,20],[10000001,30],[10000001,50],[10000001,100],[10000001,200]]},
+"3":{"type":3,"name":"灵力副本","nameRes":"fuben_word_liangli","funcId":0,"tabIcon":"fuben_img_liangli","freeSweep":2,"buySweep":5,"buySweepCost":[[10000001,20],[10000001,30],[10000001,50],[10000001,100],[10000001,200]]},
+"4":{"type":4,"name":"英雄副本","nameRes":"fuben_word_yingxiong","funcId":0,"tabIcon":"fuben_img_yingxiong","freeSweep":2,"buySweep":5,"buySweepCost":[[10000001,20],[10000001,30],[10000001,50],[10000001,100],[10000001,200]]}
+}

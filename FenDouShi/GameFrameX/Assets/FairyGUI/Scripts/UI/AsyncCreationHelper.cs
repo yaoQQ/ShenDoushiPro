@@ -7,6 +7,11 @@ namespace FairyGUI
 {
     public class AsyncCreationHelper
     {
+        public delegate void CreateObjectLifecycleCallback(PackageItem item, List<DisplayListItem> itemList);
+        
+        public static event CreateObjectLifecycleCallback BeforeCreateObject;
+        public static event CreateObjectLifecycleCallback AfterCreateObject;
+    
         public static void CreateObject(PackageItem item, UIPackage.CreateObjectCallback callback)
         {
             Timers.inst.StartCoroutine(_CreateObject(item, callback));
@@ -29,6 +34,8 @@ namespace FairyGUI
             GObject obj;
             float t = Time.realtimeSinceStartup;
             bool alreadyNextFrame = false;
+            
+            BeforeCreateObject?.Invoke(item, itemList);
 
             for (int i = 0; i < cnt; i++)
             {
@@ -74,6 +81,8 @@ namespace FairyGUI
                     alreadyNextFrame = true;
                 }
             }
+            
+            AfterCreateObject?.Invoke(item, itemList);
 
             if (!alreadyNextFrame) //强制至至少下一帧才调用callback，避免调用者逻辑出错
                 yield return null;
@@ -102,18 +111,27 @@ namespace FairyGUI
                 buffer.Seek(curPos, 0);
 
                 ObjectType type = (ObjectType)buffer.ReadByte();
+              
                 string src = buffer.ReadS();
                 string pkgId = buffer.ReadS();
 
                 buffer.position = curPos;
-
                 if (src != null)
                 {
                     UIPackage pkg;
                     if (pkgId != null)
+                    {
+                        Debug.Log($"<color='red'>加载{item.name}所依赖的其他资源包开始  pkgId: {pkgId}</color>" );
                         pkg = UIPackage.GetById(pkgId);
+                        if (pkg!=null)
+                        {
+                            Debug.Log($"<color='yellow'>加载依赖的包成功!pkg.name={pkg.name} pkgId: {pkgId}</color>");
+                        }
+                    }
                     else
+                    {
                         pkg = item.owner;
+                    }
 
                     pi = pkg != null ? pkg.GetItem(src) : null;
                     di = new DisplayListItem(pi, type);
@@ -172,7 +190,7 @@ namespace FairyGUI
         /// <summary>
         /// 
         /// </summary>
-        class DisplayListItem
+        public class DisplayListItem
         {
             public PackageItem packageItem;
             public ObjectType type;

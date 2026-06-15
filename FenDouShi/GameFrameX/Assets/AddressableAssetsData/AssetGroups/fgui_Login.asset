@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: fgui_Login
+  m_EditorClassIdentifier: 
+  m_GroupName: fgui_Login
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 613c98316b0a70a4bba5a7177e1ae082
+  m_SerializeEntries:
+  - m_GUID: 00a4eed6fa6632141b8ad18b37506f90
+    m_Address: ShengBag_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ad9789f8cfd60c4f9a68ca74fb8f13a
+    m_Address: Experience_atlas_emiz0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bb70c22f6c0fa246a725d2f09055d22
+    m_Address: Arena_atlas_q19v1i
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cb23addbb1c195489f9c0029757e739
+    m_Address: ShengBag_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1215cc31d8abe9945940282b010cc084
+    m_Address: Rank_atlas_djyn0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 138452f07f9a38b4eaf238b186653431
+    m_Address: Arena_atlas0_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15bc08cd761205b4bb9e1077e091a74e
+    m_Address: AthenaTrial_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1bb505df4d2e87942a6116bb738b995b
+    m_Address: Arena_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c2ec6ad407a9f842ac6db0fe10310bf
+    m_Address: Arena_atlas_q19v1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fb180a8df076b64695f87416fa7fbd3
+    m_Address: vip_atlas0_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21a0f8e01bad4334284c005645a7806d
+    m_Address: vip_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22ba2f572a7647048bd22630dac4b267
+    m_Address: Hero_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2424aff892a0ff04da140e5f80a92428
+    m_Address: Bag_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 268f2c78a46ced849b8987409cdcb1ee
+    m_Address: vip_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28ba824b4698a7440be3aab4e383b285
+    m_Address: OnHookUI_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f91bd59d372f8d49ac973058c03463d
+    m_Address: fonts_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33bfda6235ea2e349ab59927ddde0e6d
+    m_Address: common_atlas2_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 377ac66e5b40c8340abfe5aadd641897
+    m_Address: SystemOpen_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b434f83a8570cd42b579b7e3cb5ba3b
+    m_Address: Stronger_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d0e69449843a4349be62b3ff0356cc9
+    m_Address: Experience_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e9b088857f53b641906e525a676a345
+    m_Address: TaskUI_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43570b4aafb059647b6ab000332867ad
+    m_Address: UIPackageMapping
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ae00f224e44ad546b8a3e5765f4f108
+    m_Address: Hero_atlas_tae91
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 505434c43c84e454c98e7b60713483a5
+    m_Address: Rank_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5080945eca2b1454baea323c0c7ec44c
+    m_Address: Recharge_atlas_mv0c0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 511c86fe8c40c5e498955d5f04335498
+    m_Address: icon_atlas7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53b1999f20b51a54abc6ba9807a0f7d3
+    m_Address: Stronger_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b798ed473f78b14fbd5d2fc4acd42c1
+    m_Address: roleLevel_atlas_zbyu2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c19c70f532574140b11dcbfa8335194
+    m_Address: Tips_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 605bf2fc43c26214592e53a5408b4be0
+    m_Address: Rank_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 627791e2d78f1f343b40c61beadcfcad
+    m_Address: Friend_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6382c63434ab44744a91fdb8f0f5e893
+    m_Address: RedPointTest_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69fa4feab7634e74e9cc57dcb324ebf8
+    m_Address: login_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bd7097655a3b1f47bfb70bc6ae5e5c6
+    m_Address: Recharge_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72bf444983c5a3e409008f41b2b86acd
+    m_Address: icon_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74a95491f9dedb04fb4e8b23c1077b6b
+    m_Address: TaskUI_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74eed1326b0f4f244b739563b7957541
+    m_Address: icon_atlas3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 766b4ae47e4a26e4496847fc40bdab0b
+    m_Address: Arena_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 78d79f031c0815a4a83235a1d0b96e8a
+    m_Address: icon_atlas6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a62e4c5aa0db494eb4f4b1ed931eec8
+    m_Address: icon_atlas2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 807f4c0ea5c2c6e4692c998e1a9c3649
+    m_Address: AthenaTrial_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80e83d94c17e92e429c8109411297797
+    m_Address: GM_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 853f2dcfb099c054289b22a3baa7005a
+    m_Address: common_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88b1c88593ee81b4ea2e9bf6cd35b985
+    m_Address: Arena_atlas_q19v22
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e3898b5fdc6c12489596921d8bca3e0
+    m_Address: icon_atlas1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9272e97e074272c4c86dc13c290c8ff6
+    m_Address: AthenaTrial_atlas_mcdl4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92767a8a80bc25f4f84ed4f757850367
+    m_Address: Bag_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9443838daaca2f84faa705e53942f821
+    m_Address: RedPointTest_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 944d33205e0c81849bda11096662a919
+    m_Address: FightDailyUI_atlas_cqw61s
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9478062647971c8478aa988845593d04
+    m_Address: Arena_atlas_q19vu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96d04e2a16bce654888152bbd66ff161
+    m_Address: Chat_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 981f0f855b3c6b341ab85e044c3b62f9
+    m_Address: Friend_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99d2248f3f7a3104b87868e205032dea
+    m_Address: OnHookUI_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a4907c46d662e04c8050133741a0e81
+    m_Address: FightDailyUI_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b2748235b0558b46a6887917bfe480d
+    m_Address: fight_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a206a765404f4d141b5a15c7ab63a530
+    m_Address: GameItemBag_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a647ae58e74fdb44dbf503a1a71c8c85
+    m_Address: Chat_atlas_n0p51a
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a89e0714bf1a49444b96ec1c7f321d26
+    m_Address: roleLevel_atlas_t4jx49
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac845c4b9b7b8114f93afc0dcef927fd
+    m_Address: SystemOpen_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b712b77679155574dbe26bf55f2e81fe
+    m_Address: Arena_atlas0_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb58005d7ee7de74aa0723836412acc9
+    m_Address: roleLevel_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf85dd2274e5a034bbaade2523981651
+    m_Address: vip_atlas0_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c05084d743dec184ea63e2509d24c7b7
+    m_Address: FGUIMail_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4ccf77608ad56641933f259c80cf4d4
+    m_Address: icon_atlas4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c78c883c753a8894290eacb7b496b1f6
+    m_Address: common_atlas_cwss2iee
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0bf452d9f5fe884ba13457b4491920f
+    m_Address: Experience_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1e5398f56ba5924988c7827d83cbea8
+    m_Address: Store_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8333fd616171a042a0d91128129d71c
+    m_Address: Tips_atlas_ixvj6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd76181b0f4f4624bbf490ef66e21b27
+    m_Address: Recharge_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dee27285fb6ba9d43ad7c8efb7fa5d0d
+    m_Address: roleLevel_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dfc9d8c143857f54cbdd223183a91424
+    m_Address: icon_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e142339f500ac7d4fa97d1315b2c4728
+    m_Address: common_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2f0fdfe1c699dd409ca9b904d661eca
+    m_Address: common_atlas2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7aeb648897a21548be6da8e4fa4f89b
+    m_Address: Tips_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed4faaa9cff703d4da7c9b14ec4764a3
+    m_Address: Chat_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0ea561dd5003c144b1e71b03272e252
+    m_Address: login_fui
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f978331bfdd2b3c4987388c2295e1723
+    m_Address: icon_atlas5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f99af8daa67922b439a75618c2c249af
+    m_Address: FGUIMail_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb0e4b4414e74164eb9d84eee0b198f5
+    m_Address: Hero_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc90aa5adee07aa4a8b2d9b51f5c0289
+    m_Address: Bag_atlas0_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd147309236a9d147a8944fb7507be3b
+    m_Address: FightDailyUI_atlas0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd4ee448383c1244c8137185b430ac89
+    m_Address: Arena_atlas0_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 47bdc0c194abd754a9af07aaa4472d4d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e0de48db982b8af49b11603146d8376e, type: 2}
+    - {fileID: 11400000, guid: 53a9213df28d65647b54543c53afc589, type: 2}

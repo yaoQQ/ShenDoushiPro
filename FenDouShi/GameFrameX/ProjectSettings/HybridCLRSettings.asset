@@ -17,8 +17,9 @@ MonoBehaviour:
   hybridclrRepoURL: https://gitee.com/focus-creative-games/hybridclr
   il2cppPlusRepoURL: https://gitee.com/focus-creative-games/il2cpp_plus
   hotUpdateAssemblyDefinitions:
-  - {fileID: 5897886265953266890, guid: 8f12dd93dae50794aa23d2cc903f3bc1, type: 3}
-  - {fileID: 5897886265953266890, guid: 5009a6180b9811f4c8c6a40d89ad28e9, type: 3}
+  - {fileID: 5897886265953266890, guid: e8d4628ed033f8549b644b2aeaa1df96, type: 3}
+  - {fileID: 5897886265953266890, guid: 3f215aa3f29d32e488ae2a6edb574634, type: 3}
+  - {fileID: 5897886265953266890, guid: 4eafa3f6d1bd7544bbada50ff3276657, type: 3}
   hotUpdateAssemblies: []
   preserveHotUpdateAssemblies: []
   hotUpdateDllCompileOutputRootDir: HybridCLRData/HotUpdateDlls
@@ -26,13 +27,22 @@ MonoBehaviour:
   strippedAOTDllOutputRootDir: HybridCLRData/AssembliesPostIl2CppStrip
   patchAOTAssemblies:
   - mscorlib
-  - UnityEngine.CoreModule
-  - Unity.ResourceManager
-  - Unity.Addressables
   - System
   - System.Core
+  - UnityEngine.CoreModule
+  - Unity.ResourceManager
+  - UnityEngine.CoreModule
+  - Unity.Addressables
+  - UnityEngine.JSONSerializeModule
+  - CommonScriptCode
+  - ZString
+  - System.Collections.Immutable
+  - UniTask
   - Newtonsoft.Json
-  outputLinkFile: HybridCLRData/Generated/link.xml
-  outputAOTGenericReferenceFile: HybridCLRData/Generated/AOTGenericReferences.cs
+  - UnityEngine.AndroidJNIModule
+  - protobuf-net
+  - protobuf-net.Core
+  outputLinkFile: HybridCLRBuildCache/Generated/link.xml
+  outputAOTGenericReferenceFile: HybridCLRBuildCache/Generated/AOTGenericReferences.cs
   maxGenericReferenceIteration: 10
   maxMethodBridgeGenericIteration: 10

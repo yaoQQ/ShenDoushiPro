@@ -1,0 +1,10 @@
+public class MAIL_DIC : ExcelBase<MailVo> { }
+public class CHAT_DIC : ExcelBase<ChatVo> { }
+public class CHAT_MSG_DIC : ExcelBase<ChatMsgVo> { }
+public class RESULT_DIC : ExcelBase<ResultVo> { }
+public class TASK_DAILY_DIC : ExcelBase<TaskDailyVo> { }
+public class TASK_WEEKLY_DIC : ExcelBase<TaskWeeklyVo> { }
+public class TASK_TYPE_DIC : ExcelBase<TaskTypeVo> { }
+public class ON_HOOK_REWARD_DIC : ExcelBase<OnHookRewardVo> { }
+public class ITEM_DIC : ExcelBase<ItemVo> { }
+public class ROLE_LEVEL_DIC : ExcelBase<RoleLevelVo> { }

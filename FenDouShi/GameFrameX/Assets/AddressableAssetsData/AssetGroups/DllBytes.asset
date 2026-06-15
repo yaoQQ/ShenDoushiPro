@@ -15,25 +15,20 @@ MonoBehaviour:
   m_GroupName: DllBytes
   m_Data:
     m_SerializedData: []
-  m_GUID: a331c94ca3aeba94d86e16a13bb4835e
+  m_GUID: f057ae8873c552545b69ece0007eea99
   m_SerializeEntries:
-  - m_GUID: 2edf8adae901f9546b90ed1f5ebcb775
-    m_Address: UIWidget
+  - m_GUID: 21da77d2958edea46b55424521d9ec07
+    m_Address: GameMainPackage
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7feef58af6cbee842a718186a8510de0
-    m_Address: HotFix
+  - m_GUID: 4347ec1eafba1ca469ad1997d018b933
+    m_Address: FightPackage
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 99a285c59770c4243a57bc0dabedd7c8
-    m_Address: HotUpdatePrefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d29433491a93af74682e2c8bb5ca5a0f
-    m_Address: BasePackage
+  - m_GUID: eaf3c613484920a4db2861285126c667
+    m_Address: LoginPackage
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -41,5 +36,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: 47bdc0c194abd754a9af07aaa4472d4d, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: f844f2b06bc82ca4f957294e5f9cf300, type: 2}
-    - {fileID: 11400000, guid: 93e0c8027fd126a4395bd994dbbcf0fe, type: 2}
+    - {fileID: 11400000, guid: 580ca8448ff46754a8ba7501f6e291b2, type: 2}
+    - {fileID: 11400000, guid: 4a59487eaf2faec44a5915775bc19652, type: 2}

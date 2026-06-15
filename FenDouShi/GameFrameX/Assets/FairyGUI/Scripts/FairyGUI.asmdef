@@ -2,11 +2,14 @@
     "name": "FairyGUI",
     "rootNamespace": "",
     "references": [
-        "Unity.TextMeshPro"
+        "Unity.TextMeshPro",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "UniTask"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
-    "allowUnsafeCode": false,
+    "allowUnsafeCode": true,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,

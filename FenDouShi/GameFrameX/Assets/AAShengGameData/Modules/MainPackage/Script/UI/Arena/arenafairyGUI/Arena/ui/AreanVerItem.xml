@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="531,922">
+  <displayList>
+    <image id="n34_jian" name="n34" src="q19v1w" fileName="atlas/jingji/jingji_img_huodong_11.png" xy="0,0" size="531,922"/>
+    <image id="n35_jian" name="n35" src="q19v1x" fileName="atlas/jingji/jingji_img_zhezhao_5.png" xy="0,0" size="531,922"/>
+    <image id="n36_jian" name="n36" src="q19vs" fileName="temp/组 28.png" xy="124,698" size="364,110"/>
+    <image id="n37_jian" name="n37" src="q19vm" fileName="temp/道具图标 拷贝 7_2.png" xy="167,709" size="276,94"/>
+    <image id="n38_jian" name="n38" src="q19v1n" fileName="temp/组 29.png" xy="141,76" size="170,170"/>
+    <image id="n39_jian" name="n39" src="q19v1y" fileName="atlas/jingji/jingji_word_hdmz_11.png" xy="103,115" size="240,62"/>
+    <image id="n40_jian" name="n40" src="q19vi" fileName="temp/组 19.png" xy="48,184" size="351,36"/>
+    <text id="n41_jian" name="n41" xy="62,183" size="325,34" font="ui://x8i06oedrf0d1" fontSize="26" color="#f7f8ff" align="center" vAlign="middle" autoSize="none" text="距预赛结束：0天 00:00:00"/>
+  </displayList>
+</component>

@@ -471,12 +471,6 @@ namespace FairyGUI
             {
                 _vertexMatrix = value;
                 _meshDirty = true;
-
-                if (subInstances != null)
-                {
-                    foreach (var sub in subInstances)
-                        sub._vertexMatrix = value;
-                }
             }
         }
 
@@ -841,10 +835,7 @@ namespace FairyGUI
             newGameObject.transform.SetParent(gameObject.transform, false);
             newGameObject.layer = gameObject.layer;
             newGameObject.hideFlags = gameObject.hideFlags;
-
-            var newGraphics = new NGraphics(newGameObject);
-            newGraphics._vertexMatrix = _vertexMatrix;
-            return newGraphics;
+            return new NGraphics(newGameObject);
         }
 
         class StencilEraser

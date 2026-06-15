@@ -150,7 +150,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.013888889, y: 0.013888889, z: 0.013888889}
+  m_LocalScale: {x: 0.0078092893, y: 0.0078092893, z: 0.0078092893}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 196317302}
@@ -179,7 +179,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0}
   fairyBatching: 0
   touchDisabled: 0
-  cachedUISize: {x: 1280, y: 720}
+  cachedUISize: {x: 2400, y: 1080}
   hitTestMode: 0
   setNativeChildrenOrder: 0
 --- !u!114 &29926159
@@ -194,6 +194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a713e1756cc20804d90c9c899c1d3695, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loginView: {fileID: 0}
 --- !u!1 &196317300
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,7 +278,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.013888889, y: 0.013888889, z: 0.013888889}
+  m_LocalScale: {x: 0.0078092893, y: 0.0078092893, z: 0.0078092893}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 196317302}
@@ -321,6 +322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdbf989ffa595a04e870beed82ba2bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _lastClickIndex: -1
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,7 +522,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.013888889, y: 0.013888889, z: 0.013888889}
+  m_LocalScale: {x: 0.0078092893, y: 0.0078092893, z: 0.0078092893}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 196317302}
@@ -537,6 +539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdbf989ffa595a04e870beed82ba2bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _lastClickIndex: -1
 --- !u!114 &1459358665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -561,7 +564,7 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0}
   fairyBatching: 0
   touchDisabled: 0
-  cachedUISize: {x: 1280, y: 720}
+  cachedUISize: {x: 2400, y: 1080}
   hitTestMode: 0
   setNativeChildrenOrder: 0
 --- !u!1 &1614682441
@@ -592,7 +595,7 @@ Transform:
   m_GameObject: {fileID: 1614682441}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.888889, y: -5, z: 0}
+  m_LocalPosition: {x: 2.811344, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

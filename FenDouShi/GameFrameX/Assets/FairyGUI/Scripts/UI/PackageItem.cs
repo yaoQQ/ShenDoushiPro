@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using FairyGUI.Utils;
 
@@ -32,10 +33,7 @@ namespace FairyGUI
         public PixelHitTestData pixelHitTestData;
 
         //movieclip
-        public float interval;
-        public float repeatDelay;
-        public bool swing;
-        public MovieClip.Frame[] frames;
+        public MovieClipItem movieClipItem;
 
         //component
         public bool translated;
@@ -50,7 +48,17 @@ namespace FairyGUI
         //spine/dragonbones
         public Vector2 skeletonAnchor;
         public object skeletonAsset;
-        public HashSet<GLoader3D> skeletonLoaders;
+		public HashSet<GLoader3D> skeletonLoaders;
+		
+        public void Acquire(string objectName)
+        {
+            owner.Acquire(objectName);
+        }
+
+        public void Release(string objectName)
+        {
+            owner.Release(objectName);
+        }
 
         public object Load()
         {

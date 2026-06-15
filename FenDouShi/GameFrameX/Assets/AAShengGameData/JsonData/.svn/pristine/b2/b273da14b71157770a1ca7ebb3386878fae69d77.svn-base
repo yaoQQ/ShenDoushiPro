@@ -1,0 +1,8 @@
+{
+"1001":{"id":1001,"type":1,"icon":"img_pay_1","name":"直充60元宝","money":6,"rewards":[[10000001,60]],"firstRewards":[[10000001,60]],"vipExp":60,"refresh":0,"limit":0,"ignoreAcc":0,"disableVoucher":0},
+"1002":{"id":1002,"type":1,"icon":"img_pay_2","name":"直充300元宝","money":30,"rewards":[[10000001,300]],"firstRewards":[[10000001,300]],"vipExp":300,"refresh":0,"limit":0,"ignoreAcc":0,"disableVoucher":0},
+"1003":{"id":1003,"type":1,"icon":"img_pay_3","name":"直充980元宝","money":98,"rewards":[[10000001,980]],"firstRewards":[[10000001,980]],"vipExp":980,"refresh":0,"limit":0,"ignoreAcc":0,"disableVoucher":0},
+"1004":{"id":1004,"type":1,"icon":"img_pay_4","name":"直充1280元宝","money":128,"rewards":[[10000001,1280]],"firstRewards":[[10000001,1280]],"vipExp":1280,"refresh":0,"limit":0,"ignoreAcc":0,"disableVoucher":0},
+"1005":{"id":1005,"type":1,"icon":"img_pay_5","name":"直充3280元宝","money":328,"rewards":[[10000001,3280]],"firstRewards":[[10000001,3280]],"vipExp":3280,"refresh":0,"limit":0,"ignoreAcc":0,"disableVoucher":0},
+"1006":{"id":1006,"type":1,"icon":"img_pay_6","name":"直充6480元宝","money":648,"rewards":[[10000001,6480]],"firstRewards":[[10000001,6480]],"vipExp":6480,"refresh":0,"limit":0,"ignoreAcc":0,"disableVoucher":0}
+}

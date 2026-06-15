@@ -1,0 +1,8 @@
+{
+"101":{"monsterid":101,"name":"近战兵","modelId":901,"attr":[[1,5000],[2,100],[3,100],[4,100]],"passiveIds":[16]},
+"102":{"monsterid":102,"name":"近战兵","modelId":901,"attr":[[1,3000],[2,100],[3,100],[4,100]],"passiveIds":[]},
+"103":{"monsterid":103,"name":"近战兵","modelId":901,"attr":[[1,3000],[2,100],[3,100],[4,100]],"passiveIds":[]},
+"104":{"monsterid":104,"name":"远程兵","modelId":902,"attr":[[1,4000],[2,100],[3,100],[4,100]],"passiveIds":[]},
+"105":{"monsterid":105,"name":"远程兵","modelId":902,"attr":[[1,4000],[2,100],[3,100],[4,100]],"passiveIds":[]},
+"106":{"monsterid":106,"name":"远程兵","modelId":902,"attr":[[1,2000],[2,100],[3,100],[4,100]],"passiveIds":[]}
+}

@@ -1,0 +1,5 @@
+{
+"116000":{"id":116000,"parentId":0,"desc":"任务","functionIds":[23000],"type":0,"params":[]},
+"116001":{"id":116001,"parentId":116000,"desc":"每日任务","functionIds":[23001],"type":116,"params":[1]},
+"116002":{"id":116002,"parentId":116000,"desc":"每周任务","functionIds":[23002],"type":116,"params":[2]}
+}

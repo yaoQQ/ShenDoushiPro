@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2400,1080">
+  <displayList>
+    <image id="n2_sem6" name="n2" src="q19v1" fileName="atlas/jingji/jingji_bg_1.jpg" xy="0,0" size="2400,1080" group="sem61"/>
+    <component id="n3_sem6" name="AreaItemHenLeft" src="rxgo2k" fileName="ui/ArenaTotalItem.xml" xy="326,121" size="2774,1530" group="sem63" visible="false"/>
+    <image id="n28_sem6" name="n28" src="q19vj" fileName="atlas/jjingji/jjingji_img_juese_1.png" xy="-343,171" size="1228,1228" group="sem63" visible="false"/>
+    <image id="n45_sem6" name="n45" src="q19vu" fileName="atlas/jjingji/jjingji_img_juese_2.png" xy="1718,215" size="922,922" group="sem63" visible="false"/>
+    <image id="n63_rxgo" name="n63" src="q19v22" fileName="atlas/jjingji/jjingji_img_juese_4.png" xy="1434,-254" size="1715,1715" group="sem63" visible="false"/>
+    <list id="n66_rxgo" name="ArenaItemList" xy="-115,-106" size="2618,1507" group="sem63" layout="pagination" overflow="scroll" scroll="horizontal" scrollBarFlags="264" scrollBarRes=",ui://y4b7yuunswrc2i89" defaultItem="ui://n8s4flryrxgo2k">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <loader id="n65_rxgo" name="leftNPCLoad" xy="270,784" pivot="0.5,0.5" anchor="true" size="1332,1333" group="sem63" visible="false" url="ui://n8s4flryq19v1i" autoSize="true"/>
+    <loader id="n64_rxgo" name="rightNPCLoad" xy="2291,604" pivot="0.5,0.5" anchor="true" size="1715,1715" group="sem63" visible="false" url="ui://n8s4flryq19v22" autoSize="true"/>
+    <group id="sem63" name="viewGroup2" xy="-396,-254" size="3545,1905" group="sem61"/>
+    <image id="n47_sem6" name="n47" src="q19vv" fileName="temp/1-2竞技界面（合并）.png" xy="2194,126" size="1802,928" group="sem61" visible="false"/>
+    <group id="sem61" name="viewGroup" xy="-396,-254" size="4392,1905" advanced="true">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </group>
+    <component id="n60_e0dt" name="LeftNextBtn" src="e0dt2i" fileName="ui/LeftNextBtn.xml" xy="41,467" size="132,132">
+      <relation target="" sidePair="left-left"/>
+    </component>
+    <component id="n61_e0dt" name="RightNextBtn" src="e0dt2j" fileName="ui/RightNextBtn.xml" xy="2231,467" size="132,132">
+      <relation target="" sidePair="right-right"/>
+    </component>
+  </displayList>
+</component>

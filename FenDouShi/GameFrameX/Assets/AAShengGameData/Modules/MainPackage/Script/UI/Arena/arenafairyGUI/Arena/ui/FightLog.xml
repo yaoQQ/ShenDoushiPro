@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="189,238">
+  <displayList>
+    <image id="n60_q19v" name="n60" src="q19vc" fileName="atlas/lilian/lilian_img_tiaozhanzhong.png" xy="103,0" size="86,178" rotation="45"/>
+    <image id="n61_q19v" name="n61" src="q19vc" fileName="atlas/lilian/lilian_img_tiaozhanzhong.png" xy="0,60" size="86,178" rotation="-45"/>
+    <text id="n62_q19v" name="fightingLogInfo" xy="28,152" size="110,34" font="ui://x8i06oedrf0d1" fontSize="26" color="#fdfeff" align="center" vAlign="middle" autoSize="none" strokeColor="#000000" strokeSize="2" text="挑战中…"/>
+  </displayList>
+</component>

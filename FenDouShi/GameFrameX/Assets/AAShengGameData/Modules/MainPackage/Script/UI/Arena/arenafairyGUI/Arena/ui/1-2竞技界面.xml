@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2400,1080">
+  <displayList>
+    <image id="n1_koat" name="n1" src="q19v0" fileName="temp/背景.png" xy="0,0" size="2400,1080"/>
+    <image id="n2_koat" name="n2" src="q19v1" fileName="atlas/jingji/jingji_bg_1.jpg" xy="0,0" size="2400,1080" group="koat1"/>
+    <image id="n3_koat" name="n3" src="q19vv" fileName="temp/1-2竞技界面（合并）.png" xy="-1580,128" size="1802,928" group="koat1"/>
+    <image id="n4_koat" name="n4" src="q19vu" fileName="atlas/jjingji/jjingji_img_juese_2.png" xy="-201,217" size="922,922" group="koat1"/>
+    <image id="n5_koat" name="n5" src="q19v14" fileName="atlas/jingji/jingji_img_huodong_5.png" xy="280,126" size="853,491" group="koat6"/>
+    <image id="n6_koat" name="n6" src="q19v3" fileName="atlas/jingji/jingji_board_daojud.png" xy="694,470" size="364,110" group="koat8"/>
+    <image id="n7_koat" name="n7" src="q19v5" fileName="temp/道具图标 拷贝 7.png" xy="837,481" size="176,87" group="koat8"/>
+    <image id="n8_koat" name="n8" src="kiy42iah" fileName="atlas/common/common_daoju_frame_golden.png" pkg="y4b7yuun" xy="736,483" size="94,94" group="koat8"/>
+    <image id="n9_koat" name="n9" src="q19v4" fileName="temp/道具图标 拷贝 8.png" xy="758,497" size="55,65" group="koat8"/>
+    <image id="n10_koat" name="n10" src="q19v6" fileName="atlas/jingji/jingji_board_biaotid.png" xy="431,174" size="170,170" group="koat8"/>
+    <image id="n11_koat" name="n11" src="q19v15" fileName="atlas/jingji/jingji_word_hdmz_5.png" xy="393,213" size="240,62" group="koat8"/>
+    <image id="n12_koat" name="n12" src="q19vi" fileName="temp/组 19.png" xy="338,282" size="351,36" group="koat8"/>
+    <image id="n13_koat" name="n13" src="q19v9" fileName="atlas/jingji/jingji_board_shijian.png" xy="348,327" size="19,36" group="koat8"/>
+    <text id="n14_koat" name="n14" xy="352,281" size="325,34" group="koat8" font="ui://x8i06oedrf0d1" fontSize="26" color="#f7f8ff" align="center" vAlign="middle" autoSize="none" text="距预赛结束：0天 00:00:00"/>
+    <group id="koat8" name="00" xy="338,174" size="720,406" group="koat6"/>
+    <group id="koat6" name="组 11" xy="280,126" size="853,491" group="koat5"/>
+    <image id="n21_koat" name="n21" src="q19v18" fileName="atlas/jingji/jingji_img_huodong_7.png" xy="1193,168" size="889,466" group="koatk"/>
+    <image id="n22_koat" name="n22" src="q19ve" fileName="temp/组 21.png" xy="1651,456" size="364,110" group="koatk"/>
+    <image id="n23_koat" name="n23" src="q19vf" fileName="temp/道具图标 拷贝 7_1.png" xy="1694,467" size="276,94" group="koatk"/>
+    <image id="n24_koat" name="n24" src="q19vg" fileName="temp/组 22.png" xy="1358,206" size="170,170" group="koatk"/>
+    <image id="n25_koat" name="n25" src="q19v19" fileName="atlas/jingji/jingji_word_hdmz_7.png" xy="1323,244" size="240,62" group="koatk"/>
+    <image id="n26_koat" name="n26" src="q19vi" fileName="temp/组 19.png" xy="1269,311" size="351,36" group="koatk"/>
+    <text id="n27_koat" name="n27" xy="1283,310" size="325,34" group="koatk" font="ui://x8i06oedrf0d1" fontSize="26" color="#f7f8ff" align="center" vAlign="middle" autoSize="none" text="距预赛结束：0天 00:00:00"/>
+    <group id="koatk" name="组 12" xy="1193,168" size="889,466" group="koat5"/>
+    <image id="n29_koat" name="n29" src="q19v1a" fileName="atlas/jingji/jingji_img_zhezhao_3.png" xy="1193,168" size="889,466" group="koat5"/>
+    <image id="n30_koat" name="n30" src="q19v1j" fileName="atlas/lilian/lilian_img_suo.png" xy="1578,330" size="138,138" group="koat5"/>
+    <image id="n31_koat" name="n31" src="q19v1l" fileName="temp/组 31.png" xy="1398,463" size="509,53" group="koat5"/>
+    <text id="n32_koat" name="n32" xy="1450,474" size="394,34" group="koat5" font="ui://x8i06oedrf0d1" fontSize="26" color="#fd4859" align="center" vAlign="middle" autoSize="none" text="等级33级且服务器开启第2天解锁"/>
+    <image id="n33_koat" name="n33" src="q19v1b" fileName="atlas/jingji/jingji_img_huodong_6.png" xy="364,567" size="797,487" group="koats"/>
+    <image id="n34_koat" name="n34" src="q19vl" fileName="temp/组 25.png" xy="723,901" size="364,110" group="koats"/>
+    <image id="n35_koat" name="n35" src="q19vm" fileName="temp/道具图标 拷贝 7_2.png" xy="766,912" size="276,94" group="koats"/>
+    <image id="n36_koat" name="n36" src="q19vn" fileName="temp/组 24.png" xy="493,666" size="170,170" group="koats"/>
+    <image id="n37_koat" name="n37" src="q19v1c" fileName="atlas/jingji/jingji_word_hdmz_6.png" xy="466,704" size="240,62" group="koats"/>
+    <image id="n38_koat" name="n38" src="q19vi" fileName="temp/组 19.png" xy="412,771" size="351,36" group="koats"/>
+    <text id="n39_koat" name="n39" xy="426,770" size="325,34" group="koats" font="ui://x8i06oedrf0d1" fontSize="26" color="#f7f8ff" align="center" vAlign="middle" autoSize="none" text="距预赛结束：0天 00:00:00"/>
+    <group id="koats" name="组 13" xy="364,567" size="797,487" group="koat5"/>
+    <image id="n41_koat" name="n41" src="q19v1d" fileName="atlas/jingji/jingji_img_zhezhao_2.png" xy="364,567" size="797,487" group="koat5"/>
+    <image id="n42_koat" name="n42" src="q19v1j" fileName="atlas/lilian/lilian_img_suo.png" xy="714,750" size="138,138" group="koat5"/>
+    <image id="n43_koat" name="n43" src="q19v1m" fileName="temp/组 30.png" xy="532,884" size="509,53" group="koat5"/>
+    <text id="n44_koat" name="n44" xy="584,895" size="394,34" group="koat5" font="ui://x8i06oedrf0d1" fontSize="26" color="#fd4859" align="center" vAlign="middle" autoSize="none" text="等级37级且服务器开启第3天解锁"/>
+    <image id="n45_koat" name="n45" src="q19v1e" fileName="atlas/jingji/jingji_img_huodong_8.png" xy="1212,591" size="761,432" group="koat10"/>
+    <image id="n46_koat" name="n46" src="q19v1n" fileName="temp/组 29.png" xy="1526,859" size="364,110" group="koat10"/>
+    <image id="n47_koat" name="n47" src="q19vr" fileName="temp/道具图标 拷贝 7_3.png" xy="1569,870" size="276,94" group="koat10"/>
+    <image id="n48_koat" name="n48" src="q19vs" fileName="temp/组 28.png" xy="1342,640" size="170,170" group="koat10"/>
+    <image id="n49_koat" name="n49" src="q19v1f" fileName="atlas/jingji/jingji_word_hdmz_8.png" xy="1310,674" size="240,62" group="koat10"/>
+    <image id="n50_koat" name="n50" src="q19vi" fileName="temp/组 19.png" xy="1255,739" size="351,36" group="koat10"/>
+    <text id="n51_koat" name="n51" xy="1269,738" size="325,34" group="koat10" font="ui://x8i06oedrf0d1" fontSize="26" color="#f7f8ff" align="center" vAlign="middle" autoSize="none" text="距预赛结束：0天 00:00:00"/>
+    <group id="koat10" name="组 14" xy="1212,591" size="761,432" group="koat5"/>
+    <image id="n53_koat" name="n53" src="q19v1g" fileName="atlas/jingji/jingji_img_zhezhao_4.png" xy="1212,591" size="761,432" group="koat5"/>
+    <image id="n54_koat" name="n54" src="q19v1j" fileName="atlas/lilian/lilian_img_suo.png" xy="1548,716" size="138,138" group="koat5"/>
+    <image id="n55_koat" name="n55" src="q19v1o" fileName="temp/组 32.png" xy="1365,849" size="509,53" group="koat5"/>
+    <text id="n56_koat" name="n56" xy="1542,860" size="143,34" group="koat5" font="ui://x8i06oedrf0d1" fontSize="26" color="#fd4859" align="center" vAlign="middle" autoSize="none" text="等级55开启"/>
+    <image id="n17_koat" name="n17" src="q19v16" fileName="atlas/jingji/jingji_img_zhezhao_1.png" xy="280,126" size="853,491" group="n74_q19v"/>
+    <image id="n18_koat" name="n18" src="q19v1j" fileName="atlas/lilian/lilian_img_suo.png" xy="661,308" size="138,138" group="n74_q19v"/>
+    <image id="n19_koat" name="n19" src="q19v17" fileName="atlas/jingji/jingji_board_kqtj.png" xy="480,440" size="509,53" group="n74_q19v"/>
+    <text id="n20_koat" name="n20" xy="534,451" size="390,34" group="n74_q19v" font="ui://x8i06oedrf0d1" fontSize="26" color="#fd4859" align="center" vAlign="middle" autoSize="none" text="等级30级且服务器开启第1天解锁"/>
+    <group id="n74_q19v" name="n74" xy="280,126" size="853,491" group="koat5"/>
+    <group id="koat5" name="1-2竞技界面" xy="280,126" size="1802,928" group="koat1"/>
+    <image id="n58_koat" name="n58" src="q19v1p" fileName="temp/滚动框.png" xy="2194,124" size="1802,928" group="koat1"/>
+    <image id="n59_koat" name="n59" src="q19v1i" fileName="atlas/jjingji/jjingji_img_juese_3.png" xy="1537,251" size="1332,1333" group="koat1"/>
+    <component id="n60_koat" name="RightNextBtn" src="e0dt2j" fileName="ui/RightNextBtn.xml" xy="2231,467" group="koat1"/>
+    <component id="n62_koat" name="LeftNextBtn" src="e0dt2i" fileName="ui/LeftNextBtn.xml" xy="41,467" group="koat1"/>
+    <text id="n64_koat" name="n64" xy="279,54" size="80,43" group="koat1e" font="ui://x8i06oedrf0d1" fontSize="36" color="#fcfeff" align="center" vAlign="middle" autoSize="none" strokeColor="#304350" strokeSize="2" text="竞技"/>
+    <component id="n65_koat" name="n65" src="swrc2i81" fileName="ui/common_btn_guanbi_1.xml" pkg="y4b7yuun" xy="171,41" group="koat1e"/>
+    <component id="n66_koat" name="n66" src="swrc2i88" fileName="ui/common_btn_xinxi01_1.xml" pkg="y4b7yuun" xy="367,54" group="koat1e"/>
+    <group id="koat1e" name="返回按钮" xy="171,41" size="244,79" group="koat1"/>
+    <image id="n68_koat" name="n68" src="pj7i1e" fileName="atlas/common/common_frame_huobilan.png" pkg="y4b7yuun" xy="1692,44" size="238,55" group="koat1j"/>
+    <image id="n69_koat" name="n69" src="pj7i1b" fileName="atlas/common/common_img_bai.png" pkg="y4b7yuun" xy="1889,54" size="35,35" group="koat1j" alpha="0.15"/>
+    <component id="n70_koat" name="n70" src="swrc2i8c" fileName="ui/common_btn_jia_1.xml" pkg="y4b7yuun" xy="1894,59" group="koat1j"/>
+    <text id="n71_koat" name="n71" xy="1822,55" size="53,29" group="koat1j" font="ui://x8i06oedrf0d1" fontSize="25" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="570"/>
+    <image id="n72_koat" name="n72" src="q19v11" fileName="temp/金币.png" xy="1666,43" size="58,58" group="koat1j"/>
+    <image id="n73_koat" name="n73" src="q19v12" fileName="temp/顶栏 拷贝.png" xy="1944,43" size="264,58" group="koat1j"/>
+    <group id="koat1j" name="顶栏 " xy="1666,43" size="542,58" group="koat1"/>
+    <group id="koat1" name="1-2竞技界面 " xy="-1580,0" size="5576,1584"/>
+  </displayList>
+</component>

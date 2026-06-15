@@ -61,6 +61,10 @@ namespace FairyGUI
         /// </summary>
         /// <param name="result"></param>
         public delegate void CreateObjectCallback(GObject result);
+        
+        public delegate void GetUIPackageAsyncCallback(UIPackage result);
+        
+        public delegate void GetPackageItemAsyncCallback(PackageItem result);
 
         List<PackageItem> _items;
         Dictionary<string, PackageItem> _itemsById;
@@ -108,6 +112,16 @@ namespace FairyGUI
             destroyMethod = DestroyMethod.Unload;
             return Resources.Load(name, type);
         };
+
+        public static event Action<UIPackage, string> OnPackageAcquire;
+        public static event Action<UIPackage, string> OnPackageRelease;
+
+        public static Func<string, UIPackage> GetUIPackageByIdFunc;
+        public static Func<string, UIPackage> GetUIPackageByNameFunc;
+        public static Action<string, GetUIPackageAsyncCallback> GetUIPackageAsyncByIdHandler;
+        public static Action<string, GetUIPackageAsyncCallback> GetUIPackageAsyncByNameHandler;
+        public static Action RemoveAllPackagesHandler;
+        public static Action RemoveUnusedPackagesHandler;
 
         public UIPackage()
         {
@@ -164,13 +178,13 @@ namespace FairyGUI
             else
                 _vars[key] = value;
         }
-
+        
         /// <summary>
         /// Return a UIPackage with a certain id.
         /// </summary>
         /// <param name="id">ID of the package.</param>
         /// <returns>UIPackage</returns>
-        public static UIPackage GetById(string id)
+        public static UIPackage GetByIdDirect(string id)
         {
             UIPackage pkg;
             if (_packageInstById.TryGetValue(id, out pkg))
@@ -184,13 +198,49 @@ namespace FairyGUI
         /// </summary>
         /// <param name="name">Name of the package.</param>
         /// <returns>UIPackage</returns>
-        public static UIPackage GetByName(string name)
+        public static UIPackage GetByNameDirect(string name)
         {
             UIPackage pkg;
             if (_packageInstByName.TryGetValue(name, out pkg))
                 return pkg;
             else
                 return null;
+        }
+
+        /// <summary>
+        /// Return a UIPackage with a certain id.
+        /// </summary>
+        /// <param name="id">ID of the package.</param>
+        /// <returns>UIPackage</returns>
+        public static UIPackage GetById(string id)
+        {
+            return GetUIPackageByIdFunc != null ? GetUIPackageByIdFunc(id) : GetByIdDirect(id);
+        }
+
+        /// <summary>
+        /// Return a UIPackage with a certain name.
+        /// </summary>
+        /// <param name="name">Name of the package.</param>
+        /// <returns>UIPackage</returns>
+        public static UIPackage GetByName(string name)
+        {
+            return GetUIPackageByNameFunc != null ? GetUIPackageByNameFunc(name) : GetByNameDirect(name);
+        }
+
+        public static void GetByIdAsync(string id, GetUIPackageAsyncCallback callback)
+        {
+            if (GetUIPackageAsyncByIdHandler != null)
+                GetUIPackageAsyncByIdHandler(id, callback);
+            else if (callback != null)
+                callback(GetById(id));
+        }
+        
+        public static void GetByNameAsync(string name, GetUIPackageAsyncCallback callback)
+        {
+            if (GetUIPackageAsyncByNameHandler != null)
+                GetUIPackageAsyncByNameHandler(name, callback);
+            else if (callback != null)
+                callback(GetByName(name));
         }
 
         /// <summary>
@@ -403,6 +453,12 @@ namespace FairyGUI
         /// </summary>
         public static void RemoveAllPackages()
         {
+            if (RemoveAllPackagesHandler != null)
+            {
+                RemoveAllPackagesHandler();
+                return;
+            }
+            
             if (_packageInstById.Count > 0)
             {
                 UIPackage[] pkgs = _packageList.ToArray();
@@ -415,6 +471,25 @@ namespace FairyGUI
             _packageList.Clear();
             _packageInstById.Clear();
             _packageInstByName.Clear();
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public static void RemoveUnusedPackages()
+        {
+            RemoveUnusedPackagesHandler?.Invoke();
+        }
+
+        /// <summary>
+        /// 卸载未使用的资源
+        /// </summary>
+        public static void UnloadAllUnusedAssets()
+        {
+            foreach (var package in _packageList)
+            {
+                package.UnloadUnusedAssets();
+            }
         }
 
         /// <summary>
@@ -486,22 +561,15 @@ namespace FairyGUI
                 return null;
         }
 
-        public static void CreateObjectAsync(string pkgName, string resName, CreateObjectCallback callback)
+        public static void CreateObjectFromURLAsync(string url, CreateObjectCallback callback)
         {
-            UIPackage pkg = GetByName(pkgName);
-            if (pkg != null)
-                pkg.CreateObjectAsync(resName, callback);
-            else
-                Debug.LogError("FairyGUI: package not found - " + pkgName);
-        }
-
-        public static void CreateObjectFromURL(string url, CreateObjectCallback callback)
-        {
-            PackageItem pi = GetItemByURL(url);
-            if (pi != null)
-                AsyncCreationHelper.CreateObject(pi, callback);
-            else
-                Debug.LogError("FairyGUI: resource not found - " + url);
+            GetItemByURLAsync(url, pi =>
+            {
+                if (pi != null)
+                    AsyncCreationHelper.CreateObject(pi, callback);
+                else
+                    Debug.LogError("FairyGUI: resource not found - " + url);
+            });
         }
 
         /// <summary>
@@ -551,42 +619,103 @@ namespace FairyGUI
 
             return URL_PREFIX + pkg.id + pi.id;
         }
-
-        public static PackageItem GetItemByURL(string url)
+        
+        /// <summary>
+        /// 通过url获取pkgId和srcId
+        /// </summary>
+        public static bool ParseItemURL(string url, out string package, out string item, out bool isName)
         {
+            package = null;
+            item = null;
+            isName = false;
+            
             if (url == null)
-                return null;
+                return false;
 
             int pos1 = url.IndexOf("//");
             if (pos1 == -1)
-                return null;
-
+                return false;
+            
             int pos2 = url.IndexOf('/', pos1 + 2);
             if (pos2 == -1)
             {
-                if (url.Length > 13)
-                {
-                    string pkgId = url.Substring(5, 8);
-                    UIPackage pkg = GetById(pkgId);
-                    if (pkg != null)
-                    {
-                        string srcId = url.Substring(13);
-                        return pkg.GetItem(srcId);
-                    }
-                }
+                if (url.Length <= 13)
+                    return false;
+
+                package = url.Substring(5, 8);
+                item = url.Substring(13);
+                isName = false; // is id
             }
             else
             {
-                string pkgName = url.Substring(pos1 + 2, pos2 - pos1 - 2);
-                UIPackage pkg = GetByName(pkgName);
+                package = url.Substring(pos1 + 2, pos2 - pos1 - 2);
+                item = url.Substring(pos2 + 1);
+                isName = true; // is name
+            }
+            
+            return true;
+        }
+
+        public static PackageItem PeekItemByURL(string url)
+        {
+            if (!ParseItemURL(url, out string package, out string item, out bool isName))
+                return null;
+
+            PackageItem pi = null;
+            if (isName)
+            {
+                var pkg = GetByNameDirect(package);
                 if (pkg != null)
-                {
-                    string srcName = url.Substring(pos2 + 1);
-                    return pkg.GetItemByName(srcName);
-                }
+                    pi = pkg.GetItemByName(item);
+            }
+            else
+            {
+                var pkg = GetByIdDirect(package);
+                if (pkg != null)
+                    pi = pkg.GetItem(item);
             }
 
-            return null;
+            return pi;
+        }
+
+        public static PackageItem GetItemByURL(string url)
+        {
+            if (!ParseItemURL(url, out string package, out string item, out bool isName))
+                return null;
+
+            PackageItem pi = null;
+            if (isName)
+            {
+                var pkg = GetByName(package);
+                if (pkg != null)
+                    pi = pkg.GetItemByName(item);
+            }
+            else
+            {
+                var pkg = GetById(package);
+                if (pkg != null)
+                    pi = pkg.GetItem(item);
+            }
+
+            return pi;
+        }
+
+        public static void GetItemByURLAsync(string url, GetPackageItemAsyncCallback callback)
+        {
+            if (!ParseItemURL(url, out string package, out string item, out bool isName))
+            {
+                callback?.Invoke(null);
+                return;
+            }
+            
+            if (isName)
+            {
+                GetByNameAsync(package, pkg => { callback?.Invoke(pkg?.GetItemByName(item)); });
+            }
+            else
+            {
+                GetByIdAsync(package, pkg => { callback?.Invoke(pkg?.GetItem(item)); });
+            }
         }
 
         /// <summary>
@@ -969,6 +1098,61 @@ namespace FairyGUI
         }
 
         /// <summary>
+        /// 卸载包内未使用的资源
+        /// </summary>
+        public void UnloadUnusedAssets()
+        {
+            var cnt = _items.Count;
+            var existsUnloadAssetRefOthers = false;
+
+            do
+            {
+                existsUnloadAssetRefOthers = false;
+                
+                for (int i = 0; i < cnt; i++)
+                {
+                    if (UnloadAsset(_items[i]))
+                        existsUnloadAssetRefOthers = true;
+                }
+                
+                // 如果存在依赖其他资源的资源被卸载了，那么就再次尝试卸载
+            } while (existsUnloadAssetRefOthers);
+            
+            bool UnloadAsset(PackageItem pi)
+            {
+                switch (pi.type)
+                {
+                    case PackageItemType.Atlas:
+                    case PackageItemType.Image:
+                        if (pi.texture != null && pi.texture.refCount == 0)
+                        {
+                            pi.texture.Dispose();
+                            pi.texture = null;
+                            return pi.type == PackageItemType.Image;
+                        }
+                        break;
+                    case PackageItemType.Sound:
+                        if (pi.audioClip != null && pi.audioClip.refCount == 0)
+                        {
+                            pi.audioClip.Dispose();
+                            pi.audioClip = null;
+                        }
+                        break;
+                    case PackageItemType.MovieClip:
+                        if (pi.movieClipItem != null && pi.movieClipItem.refCount == 0)
+                        {
+                            pi.movieClipItem.Dispose();
+                            pi.movieClipItem = null;
+                            return true;
+                        }
+                        break;
+                }
+
+                return false;
+            }
+        }
+
+        /// <summary>
         /// 
         /// </summary>
         public void UnloadAssets()
@@ -1051,7 +1235,7 @@ namespace FairyGUI
                 {
                     if (pi.audioClip != null)
                     {
-                        pi.audioClip.Unload();
+                        pi.audioClip.Dispose();
                         pi.audioClip = null;
                     }
                 }
@@ -1109,11 +1293,22 @@ namespace FairyGUI
                 Debug.LogError("FairyGUI: resource not found - " + resName + " in " + this.name);
                 return;
             }
-
             AsyncCreationHelper.CreateObject(pi, callback);
         }
-
-        GObject CreateObject(PackageItem item, System.Type userClass)
+        public static void CreateObjectAsync(string pkgName, string resName, CreateObjectCallback callback)
+        {
+            GetByNameAsync(pkgName, pkg =>
+            {
+                if (pkg != null)
+                {
+                    Debug.Log($"<color='yellow'>====加载包描述文件完成pkgName={pkgName} 开始加载资源resName={resName}=====</color>");
+                    pkg.CreateObjectAsync(resName, callback);
+                }
+                else
+                    Debug.LogError("FairyGUI: package not found - " + pkgName);
+            });
+        }
+        public GObject CreateObject(PackageItem item, System.Type userClass)
         {
             Stats.LatestObjectCreation = 0;
             Stats.LatestGraphicsCreation = 0;
@@ -1198,10 +1393,10 @@ namespace FairyGUI
                     return item.bitmapFont;
 
                 case PackageItemType.MovieClip:
-                    if (item.frames == null)
+                    if (item.movieClipItem == null)
                         LoadMovieClip(item);
 
-                    return item.frames;
+                    return item.movieClipItem;
 
                 case PackageItemType.Component:
                     return item.rawData;
@@ -1268,6 +1463,16 @@ namespace FairyGUI
             }
         }
 
+        public void Acquire(string objectName)
+        {
+            OnPackageAcquire?.Invoke(this, objectName);
+        }
+
+        public void Release(string objectName)
+        {
+            OnPackageRelease?.Invoke(this, objectName);
+        }
+
         void LoadAtlas(PackageItem item)
         {
             string ext = Path.GetExtension(item.file);
@@ -1277,8 +1482,10 @@ namespace FairyGUI
             {
                 _loadAsyncFunc(fileName, ext, typeof(Texture), item);
                 if (item.texture == null)
-                    item.texture = new NTexture(null, new Rect(0, 0, item.width, item.height));
-                item.texture.destroyMethod = DestroyMethod.None;
+                {
+					item.texture = new NTexture(null, new Rect(0, 0, item.width, item.height));	
+	                item.texture.destroyMethod = DestroyMethod.None;
+				}
             }
             else
             {
@@ -1371,8 +1578,10 @@ namespace FairyGUI
             {
                 _loadAsyncFunc(fileName, ext, typeof(AudioClip), item);
                 if (item.audioClip == null)
-                    item.audioClip = new NAudioClip(null);
-                item.audioClip.destroyMethod = DestroyMethod.None;
+                {
+					item.audioClip = new NAudioClip(null);
+                	item.audioClip.destroyMethod = DestroyMethod.None;
+				}	
             }
             else
             {
@@ -1431,14 +1640,14 @@ namespace FairyGUI
 
             buffer.Seek(0, 0);
 
-            item.interval = buffer.ReadInt() / 1000f;
-            item.swing = buffer.ReadBool();
-            item.repeatDelay = buffer.ReadInt() / 1000f;
+            var interval = buffer.ReadInt() / 1000f;
+            var swing = buffer.ReadBool();
+            var repeatDelay = buffer.ReadInt() / 1000f;
 
             buffer.Seek(0, 1);
 
             int frameCount = buffer.ReadShort();
-            item.frames = new MovieClip.Frame[frameCount];
+            var frames = new MovieClip.Frame[frameCount];
 
             string spriteId;
             MovieClip.Frame frame;
@@ -1463,10 +1672,13 @@ namespace FairyGUI
                     frame.texture = new NTexture((NTexture)GetItemAsset(sprite.atlas), sprite.rect, sprite.rotated,
                         new Vector2(item.width, item.height), frameRect.position);
                 }
-                item.frames[i] = frame;
+
+                frames[i] = frame;
 
                 buffer.position = nextPos;
             }
+            
+            item.movieClipItem = new MovieClipItem(interval, repeatDelay, swing, frames);
         }
 
         void LoadFont(PackageItem item)

@@ -1,0 +1,4 @@
+{
+"1":{"id":1,"str":"测试字符1","num":100,"testFloat":0.11,"testArr1":[[1],[3]],"strArray":["string","string2","string3"],"numArray":[[[1,2,8],[6,9]],[[10,29],[1]]],"testLink":[{"refId":1,"name":"name1","animatorItem":122,"anId":[[125,147]]},{"refId":2,"name":"name2","animatorItem":123,"anId":[[125,148]]}]},
+"2":{"id":2,"str":"测试字符2","num":99.99,"testFloat":0.787,"testArr1":[[1],[4]],"strArray":["string","string2","string4","string5"],"numArray":[[1,2],[3,4]],"testLink":[{"refId":4,"name":"name4","animatorItem":125,"anId":[[125,150]]},{"refId":5,"name":"name5","animatorItem":126,"anId":[[125,151]]}]}
+}

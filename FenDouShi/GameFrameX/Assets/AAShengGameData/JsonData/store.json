@@ -1,0 +1,7 @@
+{
+"1":{"id":1,"name":"每日商铺","type":1,"funOpen":0,"openDay":0,"icon":"","storeRefreshType":1,"freeRefreshType":1,"freeRefreshParams":[3],"itemRefreshType":1,"itemRefreshParams":[3],"itemRefreshCost":[[10000001,20]],"product":[[1,8,1]],"productSort":0,"currencyId":1,"autoBuy":0,"Wish":1},
+"2":{"id":2,"name":"集市商铺","type":1,"funOpen":0,"openDay":0,"icon":"","storeRefreshType":1,"freeRefreshType":1,"freeRefreshParams":[3],"itemRefreshType":1,"itemRefreshParams":[3],"itemRefreshCost":[[10000001,20]],"product":[[1,6,2]],"productSort":0,"currencyId":1,"autoBuy":1,"Wish":0},
+"3":{"id":3,"name":"竞技商铺","type":1,"funOpen":0,"openDay":0,"icon":"","storeRefreshType":3,"freeRefreshType":4,"freeRefreshParams":[2,10],"itemRefreshType":4,"itemRefreshParams":[2,10],"itemRefreshCost":[[10000007,100]],"product":[[1,9,3]],"productSort":0,"currencyId":10,"autoBuy":0,"Wish":1},
+"9":{"id":9,"name":"将星商铺","type":1,"funOpen":0,"openDay":0,"icon":"","storeRefreshType":1,"freeRefreshType":0,"freeRefreshParams":[],"itemRefreshType":0,"itemRefreshParams":[],"itemRefreshCost":[],"product":[[1,5,9],[6,6,13]],"productSort":0,"currencyId":1,"autoBuy":1,"Wish":0},
+"10":{"id":10,"name":"遣散商铺","type":1,"funOpen":0,"openDay":0,"icon":"","storeRefreshType":3,"freeRefreshType":0,"freeRefreshParams":[],"itemRefreshType":0,"itemRefreshParams":[],"itemRefreshCost":[],"product":[[1,8,10]],"productSort":0,"currencyId":12,"autoBuy":0,"Wish":0}
+}

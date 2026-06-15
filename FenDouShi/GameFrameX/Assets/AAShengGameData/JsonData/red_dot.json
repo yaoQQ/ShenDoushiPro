@@ -1,0 +1,16 @@
+{
+"116000":{"id":116000,"parentId":0,"desc":"任务","functionIds":[23000],"type":0,"params":[]},
+"116001":{"id":116001,"parentId":116000,"desc":"每日任务","functionIds":[23001],"type":116,"params":[1]},
+"116002":{"id":116002,"parentId":116000,"desc":"每周任务","functionIds":[23002],"type":116,"params":[2]},
+"133000":{"id":133000,"parentId":0,"desc":"好感度","functionIds":[15000],"type":0,"params":[]},
+"117000":{"id":117000,"parentId":0,"desc":"挂机","functionIds":[28000],"type":0,"params":[]},
+"117001":{"id":117001,"parentId":117000,"desc":"挂机奖励已满红点","functionIds":[28000],"type":117,"params":[1]},
+"117002":{"id":117002,"parentId":117000,"desc":"挂机免费次数红点","functionIds":[28000],"type":117,"params":[2]},
+"117003":{"id":117003,"parentId":117000,"desc":"挂机升级红点","functionIds":[28000],"type":117,"params":[3]},
+"133001":{"id":133001,"parentId":133000,"desc":"圣斗士好感度等级奖励红点","functionIds":[15000],"type":133,"params":[1]},
+"133002":{"id":133002,"parentId":133000,"desc":"圣斗士故事奖励红点","functionIds":[15000],"type":133,"params":[2]},
+"134001":{"id":134001,"parentId":134000,"desc":"争霸赛竞猜任务奖励","functionIds":[48000],"type":134,"params":[1]},
+"134002":{"id":134002,"parentId":134000,"desc":"争霸赛竞猜等级奖励","functionIds":[48000],"type":134,"params":[2]},
+"136001":{"id":136001,"parentId":136000,"desc":"圣地修炼章节奖励","functionIds":[52000],"type":136,"params":[1]},
+"136002":{"id":136002,"parentId":136000,"desc":"圣地修炼扫荡","functionIds":[52000],"type":136,"params":[2]}
+}

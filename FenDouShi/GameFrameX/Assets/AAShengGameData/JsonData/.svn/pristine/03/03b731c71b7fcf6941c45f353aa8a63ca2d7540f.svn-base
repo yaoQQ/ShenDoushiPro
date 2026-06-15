@@ -1,0 +1,8 @@
+{
+"1":{"id":1,"name":"系统","functionId":0,"canSpeak":0,"speakCD":0,"recordSaveDay":0,"recordSaveNum":0,"icon":"liaotian_icon_xitong"},
+"2":{"id":2,"name":"跨服","functionId":0,"canSpeak":1,"speakCD":10,"recordSaveDay":1,"recordSaveNum":50,"icon":"liaotian_icon_kuafu"},
+"3":{"id":3,"name":"本服","functionId":0,"canSpeak":1,"speakCD":5,"recordSaveDay":1,"recordSaveNum":50,"icon":"liaotian_icon_shijie"},
+"4":{"id":4,"name":"军团","functionId":0,"canSpeak":1,"speakCD":5,"recordSaveDay":1,"recordSaveNum":50,"icon":"liaotian_icon_gonghui"},
+"5":{"id":5,"name":"私聊","functionId":0,"canSpeak":1,"speakCD":0,"recordSaveDay":1,"recordSaveNum":50,"icon":"liaotian_icon_siliao"},
+"6":{"id":6,"name":"同省","functionId":0,"canSpeak":1,"speakCD":5,"recordSaveDay":1,"recordSaveNum":50,"icon":"liaotian_icon_tongsheng"}
+}

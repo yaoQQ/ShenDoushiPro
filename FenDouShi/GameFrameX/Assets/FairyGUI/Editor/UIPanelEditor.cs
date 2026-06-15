@@ -89,16 +89,9 @@ namespace FairyGUIEditor
             EditorGUILayout.EndHorizontal();
 
             if (Application.isPlaying)
-            {
-                if (panel.container != null)
-                {
-                    EditorGUILayout.EnumPopup("Render Mode", panel.container.renderMode);
-                }
-            }
+                EditorGUILayout.EnumPopup("Render Mode", panel.container.renderMode);
             else
-            {
                 EditorGUILayout.PropertyField(renderMode);
-            }
             if ((RenderMode)renderMode.enumValueIndex != RenderMode.ScreenSpaceOverlay)
                 EditorGUILayout.PropertyField(renderCamera);
 

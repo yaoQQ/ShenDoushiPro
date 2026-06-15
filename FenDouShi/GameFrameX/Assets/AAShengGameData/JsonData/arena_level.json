@@ -1,0 +1,11 @@
+{
+"1":{"level":1,"name":"兵卒","icon":"jjcicon_duanwei_01","score":[0,1099],"seasonFall":7000,"regex":"21+(b.score-a.score)*0.03","robotScore":[0,1099],"lineupGroup":1},
+"2":{"level":2,"name":"伍长","icon":"jjcicon_duanwei_02","score":[1100,1299],"seasonFall":7000,"regex":"21+(b.score-a.score)*0.03","robotScore":[1100,1299],"lineupGroup":2},
+"3":{"level":3,"name":"都尉","icon":"jjcicon_duanwei_03","score":[1300,1499],"seasonFall":7000,"regex":"21+(b.score-a.score)*0.02","robotScore":[1300,1499],"lineupGroup":2},
+"4":{"level":4,"name":"校尉","icon":"jjcicon_duanwei_04","score":[1500,1699],"seasonFall":7000,"regex":"21+(b.score-a.score)*0.02","robotScore":[1500,1699],"lineupGroup":3},
+"5":{"level":5,"name":"上将","icon":"jjcicon_duanwei_05","score":[1700,1999],"seasonFall":6000,"regex":"21+(b.score-a.score)*0.015","robotScore":[1700,1999],"lineupGroup":3},
+"6":{"level":6,"name":"枭雄","icon":"jjcicon_duanwei_06","score":[2000,2299],"seasonFall":6000,"regex":"21+(b.score-a.score)*0.015","robotScore":[2000,2299],"lineupGroup":4},
+"7":{"level":7,"name":"霸主","icon":"jjcicon_duanwei_07","score":[2300,2499],"seasonFall":6000,"regex":"21+(b.score-a.score)*0.015","robotScore":[2300,2499],"lineupGroup":4},
+"8":{"level":8,"name":"盖世","icon":"jjcicon_duanwei_08","score":[2500,2799],"seasonFall":6000,"regex":"21+(b.score-a.score)*0.01","robotScore":[2500,2799],"lineupGroup":5},
+"9":{"level":9,"name":"无双","icon":"jjcicon_duanwei_09","score":[2800,9999999],"seasonFall":6000,"regex":"21+(b.score-a.score)*0.01","robotScore":[2800,3100],"lineupGroup":6}
+}

@@ -1,0 +1,12 @@
+{
+"10001":{"id":10001,"fightType":1,"name":"铜钱副本简单1","groupId":1000101},
+"10002":{"id":10002,"fightType":1,"name":"铜钱副本简单2","groupId":1000101},
+"10003":{"id":10003,"fightType":1,"name":"铜钱副本简单3","groupId":1000101},
+"10004":{"id":10004,"fightType":1,"name":"铜钱副本简单4","groupId":1000102},
+"10005":{"id":10005,"fightType":1,"name":"铜钱副本简单5","groupId":1000102},
+"10006":{"id":10006,"fightType":1,"name":"铜钱副本简单6","groupId":1000102},
+"10007":{"id":10007,"fightType":1,"name":"铜钱副本简单7","groupId":1000103},
+"10008":{"id":10008,"fightType":1,"name":"铜钱副本简单8","groupId":1000103},
+"10009":{"id":10009,"fightType":1,"name":"铜钱副本简单9","groupId":1000103},
+"10010":{"id":10010,"fightType":1,"name":"铜钱副本简单10","groupId":1000104}
+}

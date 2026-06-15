@@ -1,0 +1,30 @@
+
+
+using common;
+
+
+[ControlAttribute]
+public class #MODULENAME#Control : BaseControl<#MODULENAME#Control>
+{
+//#IF GENERATEMODEL    public  #MODULENAME#Model Model { get; private set; }
+
+    // 初始化成功调用
+    protected override void onInit()
+    {
+//#IF GENERATEMODEL        Model = new #MODULENAME#Model();
+    }
+
+
+    // 事件监听处理
+    protected override void onEventListener()
+    {
+
+    }
+
+    // 清理数据调用
+    protected override void onClear()
+    {
+    }
+
+
+}

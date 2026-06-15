@@ -1,0 +1,6 @@
+#ifndef SCENE_COMMON_INCLUDED
+#define SCENE_COMMON_INCLUDED
+
+
+
+#endif

@@ -1,0 +1,5 @@
+{
+"10000001":{"id":10000001,"name":"元宝","quality":4,"icon":"icon_11000002","describe":"金光闪闪的元宝，似乎没有它办不到的事情，是流通的高级货币。","bagType":0,"type":1,"autoUse":0,"subType":0,"useParam":[],"useJump":0,"useNum":0,"playerLevelLimit":0,"openDayLimit":0,"timeLimitLink":[2,3],"reclaim":[],"stackLimit":0,"holdLimit":0,"jumpIds":[2],"qualityEffect":"1","sort":99,"quickBuy":0,"event":"","redDot":0},
+"10000002":{"id":10000002,"name":"铜钱","quality":3,"icon":"icon_11000001","describe":"青铜铸成的钱币，广泛用于各种贸易，是流通的普通货币。","bagType":0,"type":1,"autoUse":0,"subType":0,"useParam":[],"useJump":0,"useNum":0,"playerLevelLimit":0,"openDayLimit":0,"timeLimitLink":[2,3],"reclaim":[],"stackLimit":0,"holdLimit":0,"jumpIds":[],"qualityEffect":"","sort":52,"quickBuy":0,"event":"","redDot":4160201},
+"10000003":{"id":10000003,"name":"友情点","quality":3,"icon":"icon_10000003","describe":"志同道合，恩深义重，通过好友赠送获得，可用于招募武将。","bagType":0,"type":1,"autoUse":0,"subType":0,"useParam":[],"useJump":0,"useNum":0,"playerLevelLimit":0,"openDayLimit":0,"timeLimitLink":[],"reclaim":[],"stackLimit":0,"holdLimit":0,"jumpIds":[7],"qualityEffect":"","sort":0,"quickBuy":0,"event":"","redDot":41401}
+}

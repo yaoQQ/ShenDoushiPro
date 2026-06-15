@@ -1,0 +1,5 @@
+{
+"1":{"id":1,"group":1,"type":1,"name":"每日副本","info":"每日副本","bg":"bg_meirifuben","icon":"word_meirifuben","rewards":[[10000002,1],[31500301,1]],"functionid":37000},
+"2":{"id":2,"group":1,"type":2,"name":"雅典娜的试炼","info":"雅典娜的试炼","bg":"bg_shilianta","icon":"word_shilianta","rewards":[[31500302,1],[31500301,1]],"functionid":36000},
+"3":{"id":3,"group":1,"type":3,"name":"至高圣域","info":"至高圣域","bg":"bg_jingjichang","icon":"word_jingjichang","rewards":[[33900303,1],[10000002,1]],"functionid":39000}
+}

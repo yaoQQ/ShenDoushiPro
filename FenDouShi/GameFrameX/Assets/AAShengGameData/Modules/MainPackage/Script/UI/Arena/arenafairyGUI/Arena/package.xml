@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="n8s4flry">
+  <resources>
+    <image id="q19v0" name="背景.png" path="/temp/"/>
+    <image id="q19v1" name="jingji_bg_1.jpg" path="/atlas/jingji/" qualityOption="source" atlas="alone_npot"/>
+    <image id="q19v2" name="jingji_img_huodong_1.png" path="/atlas/jingji/" exported="true"/>
+    <image id="q19v3" name="jingji_board_daojud.png" path="/atlas/jingji/"/>
+    <image id="q19v4" name="道具图标 拷贝 8.png" path="/temp/"/>
+    <image id="q19v5" name="道具图标 拷贝 7.png" path="/temp/"/>
+    <image id="q19v6" name="jingji_board_biaotid.png" path="/atlas/jingji/"/>
+    <image id="q19v7" name="jingji_word_jjc.png" path="/atlas/jingji/"/>
+    <image id="q19v8" name="组.png" path="/temp/"/>
+    <image id="q19v9" name="jingji_board_shijian.png" path="/atlas/jingji/"/>
+    <image id="q19va" name="战斗中.png" path="/temp/"/>
+    <image id="q19vb" name="战斗中_1.png" path="/temp/"/>
+    <image id="q19vc" name="lilian_img_tiaozhanzhong.png" path="/atlas/lilian/"/>
+    <image id="q19vd" name="jingji_img_huodong_3.png" path="/atlas/jingji/" exported="true"/>
+    <image id="q19ve" name="组 21.png" path="/temp/"/>
+    <image id="q19vf" name="道具图标 拷贝 7_1.png" path="/temp/"/>
+    <image id="q19vg" name="组 22.png" path="/temp/"/>
+    <image id="q19vh" name="jingji_word_kfjj.png" path="/atlas/jingji/"/>
+    <image id="q19vi" name="组 19.png" path="/temp/"/>
+    <image id="q19vj" name="jjingji_img_juese_1.png" path="/atlas/jjingji/" exported="true"/>
+    <image id="q19vk" name="jingji_img_huodong_2.png" path="/atlas/jingji/" exported="true"/>
+    <image id="q19vl" name="组 25.png" path="/temp/"/>
+    <image id="q19vm" name="道具图标 拷贝 7_2.png" path="/temp/"/>
+    <image id="q19vn" name="组 24.png" path="/temp/"/>
+    <image id="q19vo" name="jingji_word_sysl.png" path="/atlas/jingji/"/>
+    <image id="q19vp" name="jingji_img_huodong_4.png" path="/atlas/jingji/" exported="true"/>
+    <image id="q19vq" name="组 27.png" path="/temp/"/>
+    <image id="q19vr" name="道具图标 拷贝 7_3.png" path="/temp/"/>
+    <image id="q19vs" name="组 28.png" path="/temp/"/>
+    <image id="q19vt" name="jingji_word_kfzb.png" path="/atlas/jingji/"/>
+    <image id="q19vu" name="jjingji_img_juese_2.png" path="/atlas/jjingji/" exported="true" qualityOption="source" atlas="alone_npot"/>
+    <image id="q19vv" name="1-2竞技界面（合并）.png" path="/temp/"/>
+    <image id="q19vw" name="jingji_board_jiantoud.png" path="/atlas/jingji/"/>
+    <image id="q19vx" name="guizu_icon_jiantou.png" path="/atlas/guizu/"/>
+    <image id="q19v11" name="金币.png" path="/temp/"/>
+    <image id="q19v12" name="顶栏 拷贝.png" path="/temp/"/>
+    <component id="q19v13" name="ArenaEntranceView.xml" path="/ui/" exported="true"/>
+    <image id="q19v14" name="jingji_img_huodong_5.png" path="/atlas/jingji/" exported="true"/>
+    <image id="q19v15" name="jingji_word_hdmz_5.png" path="/atlas/jingji/"/>
+    <image id="q19v16" name="jingji_img_zhezhao_1.png" path="/atlas/jingji/"/>
+    <image id="q19v17" name="jingji_board_kqtj.png" path="/atlas/jingji/"/>
+    <image id="q19v18" name="jingji_img_huodong_7.png" path="/atlas/jingji/" exported="true"/>
+    <image id="q19v19" name="jingji_word_hdmz_7.png" path="/atlas/jingji/"/>
+    <image id="q19v1a" name="jingji_img_zhezhao_3.png" path="/atlas/jingji/"/>
+    <image id="q19v1b" name="jingji_img_huodong_6.png" path="/atlas/jingji/" exported="true"/>
+    <image id="q19v1c" name="jingji_word_hdmz_6.png" path="/atlas/jingji/"/>
+    <image id="q19v1d" name="jingji_img_zhezhao_2.png" path="/atlas/jingji/"/>
+    <image id="q19v1e" name="jingji_img_huodong_8.png" path="/atlas/jingji/" exported="true"/>
+    <image id="q19v1f" name="jingji_word_hdmz_8.png" path="/atlas/jingji/"/>
+    <image id="q19v1g" name="jingji_img_zhezhao_4.png" path="/atlas/jingji/"/>
+    <image id="q19v1h" name="jingji_board_jiantoud_1.png" path="/atlas/jingji/"/>
+    <image id="q19v1i" name="jjingji_img_juese_3.png" path="/atlas/jjingji/" exported="true" qualityOption="source" atlas="alone_npot"/>
+    <image id="q19v1j" name="lilian_img_suo.png" path="/atlas/lilian/"/>
+    <image id="q19v1k" name="guizu_icon_jiantou .png" path="/atlas/guizu/"/>
+    <image id="q19v1l" name="组 31.png" path="/temp/"/>
+    <image id="q19v1m" name="组 30.png" path="/temp/"/>
+    <image id="q19v1n" name="组 29.png" path="/temp/"/>
+    <image id="q19v1o" name="组 32.png" path="/temp/"/>
+    <image id="q19v1p" name="滚动框.png" path="/temp/"/>
+    <component id="q19v1q" name="1-2竞技界面.xml" path="/ui/"/>
+    <image id="q19v1r" name="jingji_word_hdmz_9.png" path="/atlas/jingji/"/>
+    <image id="q19v1s" name="jingji_word_hdmz_9_1.png" path="/atlas/jingji/"/>
+    <image id="q19v1t" name="jingji_img_huodong_10.png" path="/atlas/jingji/" exported="true"/>
+    <image id="q19v1u" name="jingji_word_hdmz_10.png" path="/atlas/jingji/"/>
+    <image id="q19v1v" name="jingji_img_zhezhao_1_1.png" path="/atlas/jingji/"/>
+    <image id="q19v1w" name="jingji_img_huodong_11.png" path="/atlas/jingji/" exported="true"/>
+    <image id="q19v1x" name="jingji_img_zhezhao_5.png" path="/atlas/jingji/"/>
+    <image id="q19v1y" name="jingji_word_hdmz_11.png" path="/atlas/jingji/"/>
+    <image id="q19v1z" name="jingji_img_huodong_12.png" path="/atlas/jingji/" exported="true"/>
+    <image id="q19v20" name="jingji_word_hdmz_12.png" path="/atlas/jingji/"/>
+    <image id="q19v21" name="jingji_img_zhezhao_6.png" path="/atlas/jingji/"/>
+    <image id="q19v22" name="jjingji_img_juese_4.png" path="/atlas/jjingji/" exported="true" qualityOption="source" atlas="alone_npot"/>
+    <image id="q19v23" name="lilian_img_suo_1.png" path="/atlas/lilian/"/>
+    <image id="q19v24" name="组 26.png" path="/temp/"/>
+    <image id="q19v25" name="组 34.png" path="/temp/"/>
+    <image id="q19v26" name="组 35.png" path="/temp/"/>
+    <component id="q19v27" name="1-3竞技界面.xml" path="/ui/"/>
+    <component id="q19v28" name="ArenaHorItem1.xml" path="/ui/"/>
+    <component id="q19v29" name="ArenaHoritem2.xml" path="/ui/"/>
+    <component id="q19v2a" name="ArenaHoritem4.xml" path="/ui/"/>
+    <component id="q19v2b" name="ArenaHoritem3.xml" path="/ui/"/>
+    <component id="e0dt2c" name="FightLog.xml" path="/ui/"/>
+    <component id="e0dt2d" name="AreaHenLeftBlock.xml" path="/ui/"/>
+    <component id="e0dt2e" name="AreaHenRightBlock.xml" path="/ui/"/>
+    <component id="e0dt2f" name="AreanVerItem.xml" path="/ui/"/>
+    <component id="e0dt2g" name="AreanVerItem2.xml" path="/ui/"/>
+    <component id="e0dt2h" name="AreanVerBlock.xml" path="/ui/"/>
+    <component id="e0dt2i" name="LeftNextBtn.xml" path="/ui/"/>
+    <component id="e0dt2j" name="RightNextBtn.xml" path="/ui/"/>
+    <component id="rxgo2k" name="ArenaEntranceTotalItem.xml" path="/ui/" exported="true"/>
+  </resources>
+  <publish name="" genCode="true"/>
+</packageDescription>

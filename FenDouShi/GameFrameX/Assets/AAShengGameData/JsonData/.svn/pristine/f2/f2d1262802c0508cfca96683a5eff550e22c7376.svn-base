@@ -1,0 +1,4 @@
+{
+"1":{"id":1,"name":"道具","unitLink":[{"refId":4,"name":"京","triggest":19,"unit":17,"decimals":0},{"refId":3,"name":"兆","triggest":15,"unit":13,"decimals":0},{"refId":2,"name":"亿","triggest":11,"unit":9,"decimals":0},{"refId":1,"name":"万","triggest":7,"unit":5,"decimals":0}]},
+"2":{"id":2,"name":"总战力","unitLink":[{"refId":8,"name":"京","triggest":21,"unit":17,"decimals":2},{"refId":7,"name":"兆","triggest":17,"unit":13,"decimals":2},{"refId":6,"name":"亿","triggest":13,"unit":9,"decimals":2},{"refId":5,"name":"万","triggest":7,"unit":5,"decimals":0}]}
+}

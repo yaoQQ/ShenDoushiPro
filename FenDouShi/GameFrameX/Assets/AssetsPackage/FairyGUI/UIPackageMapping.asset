@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e13d2388a6942f58d08722df396a5ac, type: 3}
+  m_Name: UIPackageMapping
+  m_EditorClassIdentifier: 
+  PackageIds:
+  - n8s4flry
+  - ooop1fy6
+  - iy58luya
+  - gw0bj7t0
+  - y4b7yuun
+  - neqo767f
+  - p4ru1eic
+  - k0wbd4rb
+  - hssxzixi
+  - x8i06oed
+  - jyya7ryu
+  - c9152aeq
+  - p65pul3q
+  - 0g1kba0b
+  - 085wg8qb
+  - l64dumk9
+  - pux1kqsb
+  - fxqdojw7
+  - ynu7b0nv
+  - tpkzz9jl
+  - oz2qb5cg
+  - 9rz411j4
+  - 49zarr4r
+  - tybgq1ln
+  - i3fvjlvy
+  - a26huicl
+  - g2ec8shv
+  - yizyzd76
+  PackageNames:
+  - Arena
+  - AthenaTrial
+  - Bag
+  - Chat
+  - common
+  - Experience
+  - FGUIMail
+  - FightDailyUI
+  - fight
+  - fonts
+  - Friend
+  - GameItemBag
+  - GM
+  - Hero
+  - icon
+  - login
+  - OnHookUI
+  - Rank
+  - Recharge
+  - RedPointTest
+  - roleLevel
+  - ShengBag
+  - Store
+  - Stronger
+  - SystemOpen
+  - TaskUI
+  - Tips
+  - vip

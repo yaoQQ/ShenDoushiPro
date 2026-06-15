@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2400,1080">
+  <displayList>
+    <image id="n1_jian" name="n1" src="q19v0" fileName="temp/背景.png" xy="0,0" size="2400,1080"/>
+    <image id="n2_jian" name="n2" src="q19v1" fileName="atlas/jingji/jingji_bg_1.jpg" xy="0,0" size="2400,1080" group="jian1"/>
+    <image id="n3_jian" name="n3" src="q19v1p" fileName="temp/滚动框.png" xy="-1736,124" size="1802,928" group="jian1"/>
+    <image id="n5_jian" name="n5" src="q19v1r" fileName="atlas/jingji/jingji_word_hdmz_9.png" xy="178,126" size="853,491" group="jian6"/>
+    <image id="n6_jian" name="n6" src="q19v3" fileName="atlas/jingji/jingji_board_daojud.png" xy="592,466" size="364,110" group="jian8"/>
+    <image id="n7_jian" name="n7" src="q19v5" fileName="temp/道具图标 拷贝 7.png" xy="735,477" size="176,87" group="jian8"/>
+    <image id="n8_jian" name="n8" src="kiy42iah" fileName="atlas/common/common_daoju_frame_golden.png" pkg="y4b7yuun" xy="633,477" size="94,94" group="jian8"/>
+    <image id="n9_jian" name="n9" src="q19v4" fileName="temp/道具图标 拷贝 8.png" xy="655,491" size="55,65" group="jian8"/>
+    <image id="n10_jian" name="n10" src="q19v6" fileName="atlas/jingji/jingji_board_biaotid.png" xy="329,170" size="170,170" group="jian8"/>
+    <image id="n11_jian" name="n11" src="q19v1s" fileName="atlas/jingji/jingji_word_hdmz_9_1.png" xy="291,209" size="240,62" group="jian8"/>
+    <image id="n12_jian" name="n12" src="q19vi" fileName="temp/组 19.png" xy="236,278" size="351,36" group="jian8"/>
+    <image id="n13_jian" name="n13" src="q19v9" fileName="atlas/jingji/jingji_board_shijian.png" xy="254,328" size="19,36" group="jian8"/>
+    <text id="n14_jian" name="n14" xy="250,277" size="325,34" group="jian8" font="ui://x8i06oedrf0d1" fontSize="26" color="#f7f8ff" align="center" vAlign="middle" autoSize="none" text="距预赛结束：0天 00:00:00"/>
+    <group id="jian8" name="00" xy="236,170" size="720,406" group="jian6"/>
+    <group id="jian6" name="组 11 拷贝" xy="178,126" size="853,491" group="jian4"/>
+    <image id="n17_jian" name="n17" src="q19v16" fileName="atlas/jingji/jingji_img_zhezhao_1.png" xy="178,126" size="853,491" group="jian4"/>
+    <image id="n18_jian" name="n18" src="q19v1j" fileName="atlas/lilian/lilian_img_suo.png" xy="559,304" size="138,138" group="jian4"/>
+    <image id="n19_jian" name="n19" src="q19v17" fileName="atlas/jingji/jingji_board_kqtj.png" xy="377,437" size="509,53" group="jian4"/>
+    <text id="n20_jian" name="n20" xy="431,448" size="390,34" group="jian4" font="ui://x8i06oedrf0d1" fontSize="26" color="#fd4859" align="center" vAlign="middle" autoSize="none" text="等级30级且服务器开启第1天解锁"/>
+    <image id="n21_jian" name="n21" src="q19v1i" fileName="atlas/jjingji/jjingji_img_juese_3.png" xy="-479,251" size="1332,1333" group="jian4"/>
+    <image id="n22_jian" name="n22" src="q19v1t" fileName="atlas/jingji/jingji_img_huodong_10.png" xy="266,567" size="797,487" group="jianl"/>
+    <image id="n23_jian" name="n23" src="q19vq" fileName="temp/组 27.png" xy="626,901" size="364,110" group="jianl"/>
+    <image id="n24_jian" name="n24" src="q19vf" fileName="temp/道具图标 拷贝 7_1.png" xy="669,912" size="276,94" group="jianl"/>
+    <image id="n25_jian" name="n25" src="q19v24" fileName="temp/组 26.png" xy="396,666" size="170,170" group="jianl"/>
+    <image id="n26_jian" name="n26" src="q19v1u" fileName="atlas/jingji/jingji_word_hdmz_10.png" xy="369,704" size="240,62" group="jianl"/>
+    <image id="n27_jian" name="n27" src="q19vi" fileName="temp/组 19.png" xy="315,771" size="351,36" group="jianl"/>
+    <text id="n28_jian" name="n28" xy="329,770" size="325,34" group="jianl" font="ui://x8i06oedrf0d1" fontSize="26" color="#f7f8ff" align="center" vAlign="middle" autoSize="none" text="距预赛结束：0天 00:00:00"/>
+    <group id="jianl" name="组 13 拷贝" xy="266,567" size="797,487" group="jian4"/>
+    <image id="n30_jian" name="n30" src="q19v1v" fileName="atlas/jingji/jingji_img_zhezhao_1_1.png" xy="266,567" size="797,487" group="jian4"/>
+    <image id="n31_jian" name="n31" src="q19v23" fileName="atlas/lilian/lilian_img_suo_1.png" xy="617,670" size="1129,218" group="jian4"/>
+    <image id="n32_jian" name="n32" src="q19v25" fileName="temp/组 34.png" xy="436,883" size="509,53" group="jian4"/>
+    <text id="n33_jian" name="n33" xy="490,894" size="390,34" group="jian4" font="ui://x8i06oedrf0d1" fontSize="26" color="#fd4859" align="center" vAlign="middle" autoSize="none" text="等级30级且服务器开启第1天解锁"/>
+    <component id="n34_jian" name="AreanVerBlock" src="e0dt2h" fileName="ui/AreanVerBlock.xml" xy="1073,110" group="jian4"/>
+    <group id="jian4" name="界面" xy="-479,110" size="2637,1474" group="jian1"/>
+    <image id="n56_jian" name="n56" src="q19vw" fileName="atlas/jingji/jingji_board_jiantoud.png" xy="41,467" size="132,132" group="jian1"/>
+    <image id="n57_jian" name="n57" src="q19v1k" fileName="atlas/guizu/guizu_icon_jiantou .png" xy="61,482" size="68,102" group="jian1"/>
+    <text id="n58_jian" name="n58" xy="279,54" size="80,43" group="jian1a" font="ui://x8i06oedrf0d1" fontSize="36" color="#fcfeff" align="center" vAlign="middle" autoSize="none" strokeColor="#304350" strokeSize="2" text="竞技"/>
+    <component id="n59_jian" name="n59" src="swrc2i81" fileName="ui/common_btn_guanbi_1.xml" pkg="y4b7yuun" xy="171,41" group="jian1a"/>
+    <component id="n60_jian" name="n60" src="swrc2i88" fileName="ui/common_btn_xinxi01_1.xml" pkg="y4b7yuun" xy="367,54" group="jian1a"/>
+    <group id="jian1a" name="返回按钮" xy="171,41" size="244,79" group="jian1"/>
+    <image id="n62_jian" name="n62" src="pj7i1e" fileName="atlas/common/common_frame_huobilan.png" pkg="y4b7yuun" xy="1692,44" size="238,55" group="jian1f"/>
+    <image id="n63_jian" name="n63" src="pj7i1b" fileName="atlas/common/common_img_bai.png" pkg="y4b7yuun" xy="1889,54" size="35,35" group="jian1f" alpha="0.15"/>
+    <component id="n64_jian" name="n64" src="swrc2i8c" fileName="ui/common_btn_jia_1.xml" pkg="y4b7yuun" xy="1894,59" group="jian1f"/>
+    <text id="n65_jian" name="n65" xy="1822,55" size="53,29" group="jian1f" font="ui://x8i06oedrf0d1" fontSize="25" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="570"/>
+    <image id="n66_jian" name="n66" src="q19v11" fileName="temp/金币.png" xy="1666,43" size="58,58" group="jian1f"/>
+    <image id="n67_jian" name="n67" src="q19v12" fileName="temp/顶栏 拷贝.png" xy="1944,43" size="264,58" group="jian1f"/>
+    <group id="jian1f" name="顶栏 " xy="1666,43" size="542,58" group="jian1"/>
+    <group id="jian1" name="1-3竞技界面" xy="-1736,0" size="4136,1584"/>
+    <image id="n4_jian" name="n4" src="q19v22" fileName="atlas/jjingji/jjingji_img_juese_4.png" xy="1434,-253" size="1715,1715"/>
+  </displayList>
+</component>

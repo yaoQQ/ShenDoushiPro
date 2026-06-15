@@ -1,0 +1,8 @@
+{
+"10001":{"id":10001,"name":"默认伤害公式","regex":"Math.max(a.atk*0.05,a.atk-b.def*Math.max(1-a.break_def/10000,0))*param[0]/10000*Math.max(1+a.add_hurt/10000-b.sub_hurt/10000,0.3)"},
+"10002":{"id":10002,"name":"血量百分比","regex":"Math.min(Math.max(b.cur_hp * param[0] / 10000, a.atk * param[1] / 10000), a.atk * param[2] / 10000)"},
+"10003":{"id":10003,"name":"护盾值","regex":"a.atk*param[0]/10000"},
+"10004":{"id":10004,"name":"通用以攻击力为底治疗","regex":"a.atk*param[0]/10000"},
+"20001":{"id":20001,"name":"无视防御伤害","regex":"a.atk*param[0]/10000"},
+"20002":{"id":20002,"name":"防御方生命绝对值伤害，不超过攻击方攻击力比例","regex":"Math.min(b.hp * param[0] / 10000, a.atk * param[1] / 10000)"}
+}

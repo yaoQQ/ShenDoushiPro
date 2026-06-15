@@ -885,7 +885,7 @@ namespace FairyGUI
                 return;
             }
 
-            _renderingOrder = context.renderingOrder;
+            _renderingOrder = context.renderingOrder + 1;
             if (graphics != null)
                 graphics.SetRenderingOrder(context, inBatch);
             else

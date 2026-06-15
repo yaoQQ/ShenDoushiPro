@@ -1,0 +1,7 @@
+{
+"1":{"id":1,"channelId":1,"content":"欢迎登录游戏"},
+"2":{"id":2,"channelId":1,"content":"%s改名为%s，重新启航，逐鹿群雄"},
+"3":{"id":3,"channelId":7,"content":"%s看好%s获胜，支持了竞猜币%d"},
+"4":{"id":4,"channelId":7,"content":"即将开始竞猜，快来支持你喜欢的选手"},
+"5":{"id":5,"channelId":7,"content":"比赛即将开始"}
+}

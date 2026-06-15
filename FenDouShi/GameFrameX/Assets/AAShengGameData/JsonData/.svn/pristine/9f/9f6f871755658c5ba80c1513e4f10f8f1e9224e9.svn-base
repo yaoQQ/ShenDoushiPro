@@ -1,0 +1,8 @@
+{
+"116000":{"id":116000,"parentId":0,"desc":"任务","functionIds":[23000],"type":0,"params":[]},
+"116001":{"id":116001,"parentId":116000,"desc":"每日任务","functionIds":[23001],"type":116,"params":[1]},
+"116002":{"id":116002,"parentId":116000,"desc":"每周任务","functionIds":[23002],"type":116,"params":[2]},
+"133000":{"id":133000,"parentId":0,"desc":"好感度","functionIds":[15000],"type":0,"params":[]},
+"133001":{"id":133001,"parentId":133000,"desc":"圣斗士好感度等级奖励红点","functionIds":[15000],"type":133,"params":[1]},
+"133002":{"id":133002,"parentId":133000,"desc":"圣斗士故事奖励红点","functionIds":[15000],"type":133,"params":[2]}
+}

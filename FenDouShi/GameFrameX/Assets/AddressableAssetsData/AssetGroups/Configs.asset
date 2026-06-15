@@ -1,0 +1,571 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Configs
+  m_EditorClassIdentifier: 
+  m_GroupName: Configs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 371fda97de7b9ad4881ee359d27e07dd
+  m_SerializeEntries:
+  - m_GUID: 00113a609efc0964c85fe7b8832efbf5
+    m_Address: abstraction
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 008233a6d412fa04c8109422dc76d0e6
+    m_Address: holy_land_chapter
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01a9cf24d13cbb1429ed35bc6cadafea
+    m_Address: rank_reward
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 022265370cd0ccc418c365ce600cb4af
+    m_Address: hero
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05213824305f6c74b977409daa8d1aab
+    m_Address: func_task
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0538a700b0e3d584d856167d15d43292
+    m_Address: monster_template
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08f0209a9ede6d447b9b7fe641239743
+    m_Address: rank_progress
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 091f4137850fde04e8b7d39d5e715a52
+    m_Address: holy_land_level
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0dc196082923f2e4fb6525cabde46efc
+    m_Address: hero_universe_arousal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 143404352285edc4f9675e0bf3f98771
+    m_Address: result
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 152b43705f2c3ad4ab88de4e9dc8b932
+    m_Address: hero_quality
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 162106e26bc492548a4fd26cea0cf262
+    m_Address: hero_star
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17293c433232054459367c0b27185553
+    m_Address: hero_appearance
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b51195d28726234ea45bb18ebc6ab8c
+    m_Address: monster_group
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ee4f2a094fad09419057f6ae6960bf8
+    m_Address: arena_level
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 211c96b91ca1f254f9ac9ced29f5a2c0
+    m_Address: skill
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21254f9189ced5b4bb2f7c31a0a785fa
+    m_Address: monster
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25dbb7e672eb9cc4ea78261d69a936a2
+    m_Address: rank
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 287722b5051836048b9cacfa986fcf13
+    m_Address: vip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 292b2f3f2eb48754caa87f33d34ccb1d
+    m_Address: rank_group
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 293fbf74fa2c6194bbc0dcde279e9fed
+    m_Address: playername
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d57b18ecad925f44b91e755015f5b94
+    m_Address: like_content
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 330fa5ccef9ec954a90acb77c21168b1
+    m_Address: star_map_task
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37e7ee1e471b7ae479256ab1e19b2631
+    m_Address: trial_degree
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ee2a97c314e8e440babe4387835bda5
+    m_Address: arena_times_reward
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f2592c67b7fbfb49be0e3c51d4510b9
+    m_Address: sensitive_word
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 403e61b62acd81849a8190195bded75b
+    m_Address: buff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43e5f5537df04e34996a480eb2c255d7
+    m_Address: formation
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43e7cebf6b997534b9f2f5b74c0e15f5
+    m_Address: hero_back
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b0536effb75daa4f896bad6b92e9b73
+    m_Address: formula
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54492bc4804ff7a4785f071cc5b4fd53
+    m_Address: skill_effect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56916a629bcf87a42a15c99674c537d5
+    m_Address: hero_universe_level
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b435bb1f7f25294eb4efa5e247283fe
+    m_Address: trial_type
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dd144d1be0b6e04493e1f7758bb4d02
+    m_Address: robot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64062c888fdff404c8a9aa18e23229fd
+    m_Address: store
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64f17c0b77a26f344925480c8b8101aa
+    m_Address: misc
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6670bf0941ef6ab4fa7891fb0864c7d5
+    m_Address: hero_inheritance_slot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66f48ea6a00d5e34abfa4899c5255a66
+    m_Address: like_story
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ec9bcfec131352479aa609f7e3b74f4
+    m_Address: like_hero_reward
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f08ca6aa33260f48a136098f1b130ac
+    m_Address: fight_type
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f8d3b8015fca864ca0bd9dec3dff24c
+    m_Address: hero_skill
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7051500e43cd58149b9ce05f5109ba8a
+    m_Address: robot_lineup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 722a319db835c8e48804bce8d8f7dd55
+    m_Address: red_dot
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7248a1384ff809348b6f5bbcf46a4430
+    m_Address: fight
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7808a2086806a5e469382706561605bb
+    m_Address: item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7858539c794432f46b941b378623f2d6
+    m_Address: fight_rating
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a988ceca573eb54e8e5b9d5b3cb86c5
+    m_Address: like_item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b4dda2cffb803740b7d7f0b35eeba07
+    m_Address: fight_daily_type
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e469565526c3a4468c6864836958a17
+    m_Address: location
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83eaa5a703e19b54c8fb06795584b069
+    m_Address: store_product
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89a48f7a2eea29743a9a6fd2afec99d3
+    m_Address: guess_level
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a0061d032ee387428f9eee51663a4ab
+    m_Address: hero_increase_star
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a8fedba9b3c93f46a184f3cd5036a84
+    m_Address: mail
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e332416e1efe934e8c7b4a2d4c4b303
+    m_Address: fight_daily
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f476fc0377070b42b094fd6ff351753
+    m_Address: role_level
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3782ed419b0e864aa483b7e828d717c
+    m_Address: experience
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a80083abe48d93748ba6cc9fd57135f3
+    m_Address: hero_increase_level
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aab4b24b95d002d47a1024ece4b6d4aa
+    m_Address: attr
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac3bd98dc8522004fa905885bf7459f2
+    m_Address: hero_broken
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aeaa1b66ffea87d49bfe2b5640d1c521
+    m_Address: pay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aebb92bd72a6c9649bf5ce22aec277bd
+    m_Address: func_condition
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0e6ae2b604494647bc4de1a41d8909b
+    m_Address: hero_talent
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0eb2e56e208b5044b6d35651bf7f88c
+    m_Address: chat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b33dafa714659904dab55f4ad46bde18
+    m_Address: task_daily
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b63b5e078af06884486b4a1976155887
+    m_Address: task_guess
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b718132266a96394bbf371f94601a5f4
+    m_Address: treasure
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b78ac25025949a94fa5799b2fc697c26
+    m_Address: task_weekly
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9723b4b26820254ebe7c6fe8ef6df64
+    m_Address: store_quick_buy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd22389f4c4be3c438a0ef1fa663309e
+    m_Address: travel_task
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bee151364d46d904ba804d29f269c8ed
+    m_Address: like_hero_level
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5d51d7cd636c4c40b0f4cbcfa571ee2
+    m_Address: hero_cost
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1375e27e94f6b941a2237a041edb389
+    m_Address: vip_privileges_text
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1cede90c47cc824a9ac2b2707775208
+    m_Address: test
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1d434e7ebe09984d831519d511cbfb7
+    m_Address: test_fight
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4f9f631a9cb6ca488a02884bd116ae1
+    m_Address: star_map
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6d5cdcd961deaa46ae86b72adb76cec
+    m_Address: travel_level_task
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e045da705d583224ab402963338a19a6
+    m_Address: travel_level
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1cd93881e8bc9b4ab78ee6ebb9c7785
+    m_Address: hero_degree
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e55bc75216f2d0a468e9bc78223947e5
+    m_Address: currency_system
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e84d7b9a858329642b6f7234dfaaad5c
+    m_Address: on_hook_reward
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eac3273639c503f42bdf94826e24ff5b
+    m_Address: like_level
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb8c83b0aabe92c4282540ba338979cd
+    m_Address: task_type
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef2af901afcff6447bced91a7e32ce14
+    m_Address: jump
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1b75415c0e8cb84594c02b45b69d900
+    m_Address: like_gift
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1f5a05e6bd51e24095309f090aaf0af
+    m_Address: trial_level
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f49cde070fe305743972761fb0f8a044
+    m_Address: hero_level
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6847d368cc64df42a6da6448a26493d
+    m_Address: func
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f903df7cfddaa514bba3cb4fe4228904
+    m_Address: chat_msg
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa097456c97a5b74fa86f5da98d6b31b
+    m_Address: units
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd5e30a1ebbb98c4db9f7c38e4fd18d0
+    m_Address: hero_bag
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: feccab4298ea192478fbbc2b9efcf943
+    m_Address: store_group
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - config
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 47bdc0c194abd754a9af07aaa4472d4d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 13ac16e7b7696094db676f7f6a3269ff, type: 2}
+    - {fileID: 11400000, guid: 1ee12eda2c980354eb75967867f12a2f, type: 2}

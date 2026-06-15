@@ -1,0 +1,16 @@
+{
+"1":{"id":1,"type":1,"title":"活动奖励","content":"您在%s活动中有未领取奖励，现通过邮件发送给您，请注意查收。","sender":"系统","expire":1209600,"forbidAutoRead":0},
+"2":{"id":2,"type":1,"title":"背包已满","content":"您的背包已满，剩余的道具通过邮件发送给您，请注意查收。","sender":"系统","expire":1209600,"forbidAutoRead":0},
+"3":{"id":3,"type":1,"title":"富文本测试邮件","content":"<color=#ff0000>红色文字</color></br><size=30>大号文字</size></br><b>粗体</b></br><i>斜体</i>","sender":"系统","expire":1209600,"forbidAutoRead":0},
+"4":{"id":4,"type":1,"title":"不可一键领取邮件","content":"不可一键领取测试邮件","sender":"系统","expire":1209600,"forbidAutoRead":1},
+"5":{"id":5,"type":1,"title":"跳转测试邮件","content":"跳转测试邮件正文\\n<on click=\"onClicked\" param=\"hello world\"><u>点我跳转</u></on>\\n","sender":"系统","expire":1209600,"forbidAutoRead":0},
+"6":{"id":6,"type":2,"title":"道具过期","content":"您的道具%s过期，回收返回道具通过邮件发送给您，请注意查收。","sender":"系统","expire":1209600,"forbidAutoRead":0},
+"7":{"id":7,"type":2,"title":"道具过期","content":"您的道具%s过期，通过邮件通知给您，请注意查收。","sender":"系统","expire":1209600,"forbidAutoRead":0},
+"8":{"id":8,"type":2,"title":"每日任务奖励","content":"您在每日任务中有未领取奖励，现通过邮件发送给您，请注意查收。","sender":"系统","expire":1209600,"forbidAutoRead":0},
+"9":{"id":9,"type":2,"title":"短时效测试邮件","content":"短时效测试邮件","sender":"系统","expire":10,"forbidAutoRead":0},
+"10":{"id":10,"type":2,"title":"竞技场排名变动","content":"您在竞技场中被%s击败,排名由%s变为%s。","sender":"系统","expire":1209600,"forbidAutoRead":0},
+"11":{"id":11,"type":2,"title":"竞技场每日排名","content":"您在昨日的竞技场中排名为%s，获得如下奖励，请查收~","sender":"系统","expire":1209600,"forbidAutoRead":0},
+"12":{"id":12,"type":2,"title":"竞技场赛季排名","content":"您在上赛季的竞技场中排名为%s，获得如下奖励，请查收~","sender":"系统","expire":1209600,"forbidAutoRead":0},
+"13":{"id":13,"type":2,"title":"充值失败","content":"您在充值【%s】时充值失败，充值金额转换成对应的代金券发送给您，请查收~","sender":"系统","expire":1209600,"forbidAutoRead":1},
+"14":{"id":14,"type":2,"title":"成功加入军团","content":"恭喜%s加入%s","sender":"系统","expire":1209600,"forbidAutoRead":0}
+}

@@ -1,0 +1,11 @@
+﻿Group	id	desc	startTime	endTime	activityId	END
+Key	id	desc	startTime	endTime	activityId	
+Type	int	string	string	string	string	
+Control	[NO]	[NODE]	[NODE]	[NODE]	[NODE]	
+Name	id	限制描述	开始时间	结束时间	关联活动id	
+Remark	id	限制描述	开始时间	结束时间可以不配	关联活动id道具建表时预留，做活动时再约定配置格式	
+True	1	限制描述1	2025-01-23 00:00:00	2025-01-24 23:59:59		
+True	2	限制描述1	2025-01-24 10:00:00	2025-01-25 23:59:59		
+True	3	限制描述1	2025-01-25 00:00:00			
+True	4	限制描述1		2025-01-27 23:59:59		
+END						

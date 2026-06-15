@@ -1,0 +1,7 @@
+{
+"1":{"id":1,"name":"系统","canSpeak":0,"speakCD":0,"recordSaveDay":0,"recordSaveNum":0},
+"2":{"id":2,"name":"跨服","canSpeak":1,"speakCD":10,"recordSaveDay":7,"recordSaveNum":200},
+"3":{"id":3,"name":"本服","canSpeak":1,"speakCD":5,"recordSaveDay":7,"recordSaveNum":100},
+"4":{"id":4,"name":"军盟","canSpeak":1,"speakCD":5,"recordSaveDay":7,"recordSaveNum":100},
+"5":{"id":5,"name":"私聊","canSpeak":1,"speakCD":0,"recordSaveDay":7,"recordSaveNum":200}
+}

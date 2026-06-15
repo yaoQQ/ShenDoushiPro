@@ -56,7 +56,7 @@ namespace FairyGUIEditor
             Selection.objects = new Object[] { StageCamera.main.gameObject };
         }
 
-        [MenuItem("Window/FairyGUI - Refresh Packages And Panels")]
+        [MenuItem("Tools/FairyGUI/FairyGUI - Refresh Packages And Panels(刷新所有fairygui包和面板)")]
         static void RefreshPanels()
         {
             ReloadPackages();

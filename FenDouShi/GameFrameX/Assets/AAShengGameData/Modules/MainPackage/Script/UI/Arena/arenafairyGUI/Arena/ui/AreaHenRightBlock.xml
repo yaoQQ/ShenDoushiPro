@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="889,856">
+  <displayList>
+    <component id="n20_sem6" name="Areaitem3" src="q19v2b" fileName="ui/ArenaHoritem3.xml" xy="0,0"/>
+    <component id="n37_sem6" name="Areaitem4" src="q19v2a" fileName="ui/ArenaHoritem4.xml" xy="41,424"/>
+    <loader id="n38_rxgo" name="rightNPCLoad" xy="1072,433" pivot="0.5,0.5" anchor="true" size="1228,1228" url="ui://n8s4flryq19vj" autoSize="true"/>
+  </displayList>
+</component>

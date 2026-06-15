@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="132,132" extention="Button">
+  <displayList>
+    <image id="n60_koat" name="n60" src="q19vw" fileName="atlas/jingji/jingji_board_jiantoud.png" xy="0,0" size="132,132"/>
+    <image id="n61_koat" name="n61" src="q19vx" fileName="atlas/guizu/guizu_icon_jiantou.png" xy="44,15" size="68,102"/>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.8"/>
+</component>

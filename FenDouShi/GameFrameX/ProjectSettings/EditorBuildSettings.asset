@@ -6,12 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/main.unity
-    guid: b4b61684cec60ef47a787305b61bdc51
+    path: Assets/AAShengGameData/Scene/LuchScene.unity
+    guid: 7bb6b1559aa6294409a68529148d689d
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 73a47222eb1dd7d4d86941389bb777dd,
       type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
       type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 629c0e7647d6d0b48b69c9bf84b4d48d,
+      type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 82c735970e026c04b8fd7835a33451ab,
       type: 2}

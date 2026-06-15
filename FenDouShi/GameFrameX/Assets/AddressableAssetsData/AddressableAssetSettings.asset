@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: a331c94ca3aeba94d86e16a13bb4835e
+  m_DefaultGroup: 613c98316b0a70a4bba5a7177e1ae082
   m_currentHash:
     serializedVersion: 2
-    Hash: 26a0a82f284310e8cfff9db1e1c0c385
+    Hash: cdbca61f9faed1fbba0d5ef6a46eb268
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -35,19 +35,24 @@ MonoBehaviour:
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: fb27cd9b7a7d45b44a5b63016b337878
+    m_Id: 2d9f7ff43af02c647bec844f8dd73a8c
   m_RemoteCatalogLoadPath:
-    m_Id: 214bb3d2910ecfb4796879e6947cd44e
+    m_Id: ca0a797189f6c9a4daa62bc1cba7dc55
   m_ContentStateBuildPathProfileVariableName: <default settings path>
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: 2
   m_GroupAssets:
+  - {fileID: 11400000, guid: 28609706497c3744c9963b37a7e81e42, type: 2}
+  - {fileID: 11400000, guid: 2c901433b2a1c7d49a696682d39de9ff, type: 2}
+  - {fileID: 11400000, guid: dd848db95806da34980d6ba07af2a3de, type: 2}
   - {fileID: 11400000, guid: 94036a57ce4004e46b94e597edb41ea8, type: 2}
-  - {fileID: 11400000, guid: 6ffba349b783c1641bc61cfeb9e15264, type: 2}
-  - {fileID: 11400000, guid: 99e79a57bd6b1db469e7ca75228b81ce, type: 2}
-  - {fileID: 11400000, guid: edb0b57c2eb69d340a042d4a1cc9c550, type: 2}
+  - {fileID: 11400000, guid: 6540598515522f34ea35d7c1960bebee, type: 2}
+  - {fileID: 11400000, guid: 582e283b4bf524d4d96a7d73f1d30612, type: 2}
+  - {fileID: 11400000, guid: 8801ca409abb2b040ad2ef1f9321493a, type: 2}
+  - {fileID: 11400000, guid: eb3d637f9a33d2e408620e3e629e46f2, type: 2}
+  - {fileID: 11400000, guid: 6f25ea837699aa043af5a88eb2f5a045, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -133,6 +138,11 @@ MonoBehaviour:
     - default
     - BasePackage
     - login
+    - ShengBag
+    - fight
+    - common
+    - launch
+    - config
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 76e412b47b68c19498ea922be17e6cdf, type: 2}

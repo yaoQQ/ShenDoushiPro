@@ -1,0 +1,6 @@
+{
+"1":{"id":1,"name":"集市","icon":"icon_shiji","title":"word_beibao","types":[1,2]},
+"2":{"id":2,"name":"竞技","icon":"icon_wanfa","title":"word_beibao","types":[3,4]},
+"4":{"id":4,"name":"将星","icon":"icon_fenjie","title":"word_beibao","types":[9]},
+"5":{"id":5,"name":"遣散","icon":"icon_suipian","title":"word_beibao","types":[10]}
+}

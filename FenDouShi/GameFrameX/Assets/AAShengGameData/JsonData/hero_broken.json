@@ -1,0 +1,12 @@
+{
+"0":{"id":0,"itemCost":[[10000001,25]],"heroCost":[1],"heroNum":0,"levelLimit":100},
+"1":{"id":1,"itemCost":[[10000001,25]],"heroCost":[2,3],"heroNum":0,"levelLimit":100},
+"2":{"id":2,"itemCost":[[10000001,25]],"heroCost":[1],"heroNum":0,"levelLimit":100},
+"3":{"id":3,"itemCost":[[10000001,25]],"heroCost":[1],"heroNum":0,"levelLimit":100},
+"4":{"id":4,"itemCost":[[10000001,25]],"heroCost":[1],"heroNum":0,"levelLimit":100},
+"5":{"id":5,"itemCost":[[10000001,25]],"heroCost":[1],"heroNum":0,"levelLimit":100},
+"6":{"id":6,"itemCost":[[10000001,25]],"heroCost":[1],"heroNum":2,"levelLimit":100},
+"7":{"id":7,"itemCost":[[10000001,25]],"heroCost":[1],"heroNum":2,"levelLimit":100},
+"8":{"id":8,"itemCost":[[10000001,25]],"heroCost":[1],"heroNum":2,"levelLimit":100},
+"9":{"id":9,"itemCost":[],"heroCost":[],"heroNum":0,"levelLimit":100}
+}

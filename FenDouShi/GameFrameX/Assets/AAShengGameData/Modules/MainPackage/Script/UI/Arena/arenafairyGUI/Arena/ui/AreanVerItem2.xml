@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="541,922">
+  <displayList>
+    <image id="n43_jian" name="n43" src="q19v1z" fileName="atlas/jingji/jingji_img_huodong_12.png" xy="0,0" size="541,922"/>
+    <image id="n44_jian" name="n44" src="q19v1o" fileName="temp/组 32.png" xy="137,698" size="364,110"/>
+    <image id="n45_jian" name="n45" src="q19vm" fileName="temp/道具图标 拷贝 7_2.png" xy="180,709" size="276,94"/>
+    <image id="n46_jian" name="n46" src="q19v1l" fileName="temp/组 31.png" xy="118,76" size="170,170"/>
+    <image id="n47_jian" name="n47" src="q19v20" fileName="atlas/jingji/jingji_word_hdmz_12.png" xy="80,115" size="240,62"/>
+    <image id="n48_jian" name="n48" src="q19vi" fileName="temp/组 19.png" xy="25,184" size="351,36"/>
+    <text id="n49_jian" name="n49" xy="39,183" size="325,34" font="ui://x8i06oedrf0d1" fontSize="26" color="#f7f8ff" align="center" vAlign="middle" autoSize="none" text="距预赛结束：0天 00:00:00"/>
+    <image id="n50_jian" name="n50" src="q19v21" fileName="atlas/jingji/jingji_img_zhezhao_6.png" xy="0,0" size="541,922"/>
+    <image id="n68_e0dt" name="n68" src="q19v1j" fileName="atlas/lilian/lilian_img_suo.png" xy="202,335" size="138,138"/>
+    <image id="n52_jian" name="n52" src="q19v26" fileName="temp/组 35.png" xy="19,468" size="509,53"/>
+    <text id="n53_jian" name="n53" xy="73,479" size="390,34" font="ui://x8i06oedrf0d1" fontSize="26" color="#fd4859" align="center" vAlign="middle" autoSize="none" text="等级30级且服务器开启第1天解锁"/>
+  </displayList>
+</component>

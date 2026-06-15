@@ -40,7 +40,7 @@ namespace FairyGUI
         /// <summary>
         /// 
         /// </summary>
-        public int refCount;
+        public int refCount { get; private set; }
 
         /// <summary>
         /// 
@@ -58,9 +58,26 @@ namespace FairyGUI
         public event Action<NTexture> onSizeChanged;
 
         /// <summary>
+        /// This event will trigger when ref count is not zero.
+        /// </summary>
+        public event Action<NTexture> onAcquire; 
+
+        /// <summary>
         /// This event will trigger when ref count is zero.
         /// </summary>
         public event Action<NTexture> onRelease;
+        
+        /// <summary>
+        /// This event will trigger when texture is disposing.
+        /// </summary>
+        public event Action<NTexture> onDispose;
+        
+        /// <summary>
+        /// NTexture instance id.
+        /// </summary>
+        public int instanceID { get; private set; }
+        
+        private static int _instanceIDIncrease = 0;
 
         Texture _nativeTexture;
         Texture _alphaTexture;
@@ -119,7 +136,6 @@ namespace FairyGUI
             CustomDestroyMethod = null;
         }
 #endif
-
         /// <summary>
         /// 
         /// </summary>
@@ -136,6 +152,7 @@ namespace FairyGUI
         /// <param name="yScale"></param>
         public NTexture(Texture texture, Texture alphaTexture, float xScale, float yScale)
         {
+            instanceID = ++_instanceIDIncrease;
             _root = this;
             _nativeTexture = texture;
             _alphaTexture = alphaTexture;
@@ -162,6 +179,7 @@ namespace FairyGUI
         /// <param name="region"></param>
         public NTexture(Texture texture, Rect region)
         {
+            instanceID = ++_instanceIDIncrease;
             _root = this;
             _nativeTexture = texture;
             _region = region;
@@ -181,6 +199,7 @@ namespace FairyGUI
         /// <param name="rotated"></param>
         public NTexture(NTexture root, Rect region, bool rotated)
         {
+            instanceID = ++_instanceIDIncrease;
             _root = root;
             this.rotated = rotated;
             region.x += root._region.x;
@@ -222,6 +241,7 @@ namespace FairyGUI
         /// <param name="sprite"></param>
         public NTexture(Sprite sprite)
         {
+            instanceID = ++_instanceIDIncrease;
             Rect rect = sprite.textureRect;
             rect.y = sprite.texture.height - rect.yMax;
 
@@ -518,11 +538,20 @@ namespace FairyGUI
                 _root.AddRef();
 
             refCount++;
+
+            if (refCount == 1)
+            {
+                if (onAcquire != null)
+                    onAcquire(this);
+            }
         }
 
         public void ReleaseRef()
         {
             if (_root == null) //disposed
+                return;
+            
+            if (refCount == 0)
                 return;
 
             refCount--;
@@ -544,12 +573,17 @@ namespace FairyGUI
         {
             if (this == _empty)
                 return;
+            
+            if (onDispose != null)
+                onDispose(this);
 
             if (_root == this)
                 Unload(true);
             _root = null;
             onSizeChanged = null;
+            onAcquire = null;
             onRelease = null;
+            onDispose = null;
         }
     }
 }

@@ -1,0 +1,4 @@
+{
+"1":{"id":1,"name":"玩法排行","icon":"icon_wanfapaihang","ranks":[101,301,501]},
+"2":{"id":2,"name":"实力排行","icon":"icon_shilipaihang","ranks":[201,202,401,402,403,404]}
+}

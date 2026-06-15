@@ -1,0 +1,5 @@
+{
+"1000":{"id":1000,"plan":1,"star":0,"levelLimit":100,"itemCost":[[10000001,25]],"heroCost":[1],"attrAdd":1000},
+"1001":{"id":1001,"plan":1,"star":1,"levelLimit":200,"itemCost":[[10000001,25]],"heroCost":[2,3],"attrAdd":1000},
+"1002":{"id":1002,"plan":1,"star":2,"levelLimit":400,"itemCost":[],"heroCost":[],"attrAdd":1000}
+}

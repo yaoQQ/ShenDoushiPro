@@ -180,7 +180,7 @@ namespace FairyGUI
             if (target.graphics != null)
             {
                 oldLayer = target.graphics.gameObject.layer;
-                target._SetLayerDirect(CaptureCamera.layer);
+                target.graphics.gameObject.layer = CaptureCamera.layer;
             }
 
             if (target is Container)
@@ -196,7 +196,7 @@ namespace FairyGUI
             RenderTexture.active = old;
 
             if (target.graphics != null)
-                target._SetLayerDirect(oldLayer);
+                target.graphics.gameObject.layer = oldLayer;
 
             if (target is Container)
                 ((Container)target).SetChildrenLayer(oldLayer);

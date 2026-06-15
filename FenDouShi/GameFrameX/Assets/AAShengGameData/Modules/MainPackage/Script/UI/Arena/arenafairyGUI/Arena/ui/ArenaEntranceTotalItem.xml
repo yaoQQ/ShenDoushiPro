@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="2774,1530">
+  <displayList>
+    <component id="n3_sem6" name="AreaItemHenLeft" src="e0dt2d" fileName="ui/AreaHenLeftBlock.xml" xy="395,234" group="n63_rxgo"/>
+    <component id="n20_sem6" name="AreaItemHenRight" src="e0dt2e" fileName="ui/AreaHenRightBlock.xml" xy="1286,275" group="n63_rxgo"/>
+    <component id="n62_rxgo" name="AreanVerBlock" src="e0dt2h" fileName="ui/AreanVerBlock.xml" xy="1294,229" group="n63_rxgo" visible="false"/>
+    <group id="n63_rxgo" name="n63" xy="395,229" size="1984,927"/>
+  </displayList>
+</component>

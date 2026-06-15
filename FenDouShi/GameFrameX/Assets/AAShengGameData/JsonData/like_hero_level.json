@@ -1,0 +1,13 @@
+{
+"1":{"level":1,"desc":"形同陌路","exp":50,"reward":[],"giftPlan":1,"giftCount":3,"giftRate":2000},
+"2":{"level":2,"desc":"泛泛之交","exp":100,"reward":[[10000001,25]],"giftPlan":2,"giftCount":3,"giftRate":2100},
+"3":{"level":3,"desc":"偶露好感","exp":200,"reward":[[10000001,25]],"giftPlan":3,"giftCount":3,"giftRate":2200},
+"4":{"level":4,"desc":"良朋挚友","exp":500,"reward":[[10000001,25]],"giftPlan":4,"giftCount":3,"giftRate":2300},
+"5":{"level":5,"desc":"风雨同舟","exp":800,"reward":[[10000001,25]],"giftPlan":5,"giftCount":3,"giftRate":2400},
+"6":{"level":6,"desc":"亲密无间","exp":1200,"reward":[[10000001,25]],"giftPlan":6,"giftCount":3,"giftRate":2500},
+"7":{"level":7,"desc":"如胶似漆","exp":1600,"reward":[[10000001,25]],"giftPlan":7,"giftCount":3,"giftRate":2600},
+"8":{"level":8,"desc":"心心相印","exp":2000,"reward":[],"giftPlan":8,"giftCount":3,"giftRate":2700},
+"9":{"level":9,"desc":"琴瑟和鸣","exp":2400,"reward":[],"giftPlan":9,"giftCount":3,"giftRate":2800},
+"10":{"level":10,"desc":"心有灵犀","exp":2800,"reward":[[10000001,25]],"giftPlan":9,"giftCount":3,"giftRate":2900},
+"11":{"level":11,"desc":"比翼双飞","exp":0,"reward":[[10000001,25]],"giftPlan":9,"giftCount":3,"giftRate":3000}
+}

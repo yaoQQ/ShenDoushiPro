@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="761,432">
+  <displayList>
+    <image id="n37_sem6" name="n37" src="q19vp" fileName="atlas/jingji/jingji_img_huodong_4.png" xy="0,0" size="761,432" group="n68_e0dt"/>
+    <loader id="n60_q19v" name="BgLoad" xy="0,0" size="761,432" group="n68_e0dt" url="ui://n8s4flryq19vp"/>
+    <image id="n61_q19v" name="n61" src="q19v3" fileName="atlas/jingji/jingji_board_daojud.png" xy="314,263" size="364,110" group="n68_e0dt"/>
+    <list id="n62_q19v" name="goodList" xy="352,271" size="535,160" group="n68_e0dt" scale="0.58,0.58" layout="row" overflow="scroll" colGap="-4" defaultItem="ui://y4b7yuunhskui63">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <image id="n41_sem6" name="n41" src="q19vt" fileName="atlas/jingji/jingji_word_kfzb.png" xy="98,78" size="240,62" group="n68_e0dt"/>
+    <loader id="n70_e0dt" name="titleBgLoad" xy="98,78" size="240,62" group="n68_e0dt" url="ui://n8s4flryq19vt"/>
+    <image id="n45_q19v" name="n45" src="q19v9" fileName="atlas/jingji/jingji_board_shijian.png" xy="43,143" size="351,36" group="n68_e0dt"/>
+    <text id="n43_sem6" name="infoText" xy="57,142" size="321,34" group="n68_e0dt" font="ui://x8i06oedrf0d1" fontSize="26" color="#f7f8ff" align="center" vAlign="middle" autoSize="none" text="距预赛结束：2天 10:20:50"/>
+    <component id="n71_e0dt" name="FightLog" src="e0dt2c" fileName="ui/FightLog.xml" xy="313,114" group="n68_e0dt"/>
+    <group id="n68_e0dt" name="n68" xy="0,0" size="887,432"/>
+    <image id="n69_e0dt" name="n69" src="q19v1g" fileName="atlas/jingji/jingji_img_zhezhao_4.png" xy="0,0" size="761,432" group="n67_e0dt" alpha="0.5"/>
+    <image id="n64_e0dt" name="n64" src="q19v1j" fileName="atlas/lilian/lilian_img_suo.png" xy="351,168" size="138,138" group="n67_e0dt"/>
+    <image id="n65_e0dt" name="n65" src="q19v17" fileName="atlas/jingji/jingji_board_kqtj.png" xy="170,300" size="509,53" group="n67_e0dt"/>
+    <text id="n66_e0dt" name="lockInfo" xy="78,311" size="650,36" group="n67_e0dt" font="ui://x8i06oedrf0d1" fontSize="26" color="#fd4859" align="center" vAlign="middle" autoSize="none" text="等级30级且服务器开启第1天解锁"/>
+    <group id="n67_e0dt" name="maskGroup" xy="0,0" size="761,432" advanced="true"/>
+  </displayList>
+</component>

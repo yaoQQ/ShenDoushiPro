@@ -1,0 +1,5 @@
+{
+"1":{"id":1,"numOfPurchases":[1,5],"cost":[[10000001,25]],"capacity":5},
+"2":{"id":2,"numOfPurchases":[6,10],"cost":[[10000001,25]],"capacity":5},
+"3":{"id":3,"numOfPurchases":[11999],"cost":[[10000001,25]],"capacity":5}
+}

@@ -38,7 +38,7 @@ namespace FairyGUI
             if (url == null)
                 throw new Exception("Invaild url: " + url);
 
-            PackageItem pi = UIPackage.GetItemByURL(url);
+            PackageItem pi = UIPackage.PeekItemByURL(url);
             if (pi != null)
                 pi.extensionCreator = creator;
 
@@ -122,7 +122,10 @@ namespace FairyGUI
                 obj = NewObject(pi.objectType);
 
             if (obj != null)
+            {
                 obj.packageItem = pi;
+                pi.Acquire(obj.resourceURL);
+            }
 
             return obj;
         }

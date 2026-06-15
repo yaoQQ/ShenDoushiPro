@@ -23,10 +23,38 @@ namespace FairyGUI
         /// <summary>
         /// 
         /// </summary>
+        public int refCount;
+
+        /// <summary>
+        /// This event will trigger when ref count is not zero.
+        /// </summary>
+        public event Action<NAudioClip> onAcquire; 
+
+        /// <summary>
+        /// This event will trigger when ref count is zero.
+        /// </summary>
+        public event Action<NAudioClip> onRelease;
+        
+        /// <summary>
+        /// This event will trigger when texture is disposing.
+        /// </summary>
+        public event Action<NAudioClip> onDispose;
+        
+        /// <summary>
+        /// NAudioClip instance id.
+        /// </summary>
+        public int instanceID { get; private set; }
+        
+        private static int _instanceIDIncrease = 0;
+
+        /// <summary>
+        /// 
+        /// </summary>
         /// <param name="audioClip"></param>
         public NAudioClip(AudioClip audioClip)
         {
             nativeClip = audioClip;
+            instanceID = ++_instanceIDIncrease;
         }
 
         /// <summary>
@@ -64,6 +92,34 @@ namespace FairyGUI
             nativeClip = audioClip;
         }
 
+        public void AddRef()
+        {
+            refCount++;
+            
+            if (refCount == 1)
+                onAcquire?.Invoke(this);
+        }
+
+        public void ReleaseRef()
+        {
+            refCount--;
+
+            if (refCount != 0) 
+                return;
+
+            onRelease?.Invoke(this);
+        }
+
+        public void Dispose()
+        {
+            onDispose?.Invoke(this);
+            
+            Unload();
+            
+            onAcquire = null;
+            onRelease = null;
+            onDispose = null;
+        }
 #if UNITY_2019_3_OR_NEWER
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
         static void InitializeOnLoad()

@@ -1,0 +1,9 @@
+{
+"1":{"type":1,"desc":"主线副本","canSkip":1,"formationid":1,"maxRound":20,"background":"1","isPvp":0,"cleanBuffAfterSection":0,"intervalInMillis":1000},
+"2":{"type":2,"desc":"每日副本","canSkip":0,"formationid":1,"maxRound":20,"background":"2","isPvp":0,"cleanBuffAfterSection":0,"intervalInMillis":1000},
+"3":{"type":3,"desc":"竞技场","canSkip":1,"formationid":3,"maxRound":20,"background":"3","isPvp":0,"cleanBuffAfterSection":0,"intervalInMillis":1000},
+"4":{"type":4,"desc":"战斗录像","canSkip":1,"formationid":0,"maxRound":0,"background":"","isPvp":0,"cleanBuffAfterSection":0,"intervalInMillis":1000},
+"5":{"type":5,"desc":"切磋","canSkip":1,"formationid":1,"maxRound":20,"background":"1","isPvp":1,"cleanBuffAfterSection":0,"intervalInMillis":1000},
+"6":{"type":6,"desc":"试炼塔","canSkip":0,"formationid":1,"maxRound":20,"background":"2","isPvp":0,"cleanBuffAfterSection":0,"intervalInMillis":1000},
+"7":{"type":7,"desc":"争霸赛","canSkip":1,"formationid":4,"maxRound":20,"background":"2","isPvp":1,"cleanBuffAfterSection":0,"intervalInMillis":1000}
+}
