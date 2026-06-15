@@ -126,8 +126,11 @@ public class LoginOnInitView : BaseView
                 CommonViewUtils.ShowMessageBox(msgVo);
                 return;
             }
-
-            CentralServerLogin.LoginToCentralServer(playerName);
+            //单机模式
+            UIViewManager.Instance.Hide(UIViewEnum.LoginOnInitView);
+            PreloadManager.Instance.PreLoadPackage(PackageEnum.GameMainPackage);
+            //联网模式
+            //CentralServerLogin.LoginToCentralServer(playerName);
             Logger.PrintDebug("Click ConnectToGameSocket");
         }
         else if (view.loginBtn == clickedButton)
@@ -140,7 +143,10 @@ public class LoginOnInitView : BaseView
                 msgVo.OkBtnfunc = () =>
                 {
                     view.UserKnowBtn.selected = true;
-                    WebLoginModule.ConnectToGameWebSocket();
+        
+
+                    //联网模式
+                    // WebLoginModule.ConnectToGameWebSocket();
                 };
                 CommonViewUtils.ShowMessageBox(msgVo);
                return;

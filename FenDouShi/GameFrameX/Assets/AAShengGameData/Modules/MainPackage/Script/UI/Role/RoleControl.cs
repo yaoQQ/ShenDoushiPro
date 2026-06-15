@@ -45,10 +45,10 @@ public class RoleControl : BaseControl<RoleControl>
     /// </summary>
     public void ReqRoleInfoReq()
     {
-        var req = new RoleInfoReq();
-        Logger.PrintDebug("请求角色信息 UserInfoManager.Instance.userInfo="+ UserInfoManager.Instance.userInfo);
-        req.roleId = UserInfoManager.Instance.userInfo.Rid;
-        SendNetMsg((uint)Cmd.RoleInfoReq, req);
+        //var req = new RoleInfoReq();
+        //Logger.PrintDebug("请求角色信息 UserInfoManager.Instance.userInfo="+ UserInfoManager.Instance.userInfo);
+        //req.roleId = UserInfoManager.Instance.userInfo.Rid;
+        //SendNetMsg((uint)Cmd.RoleInfoReq, req);
     }
 
     /// <summary>

@@ -14,10 +14,10 @@ public class GmModule : BaseModule
         RegisterNetMsg((uint)Cmd.GmCommandReq);//使用gm指令
         RegisterNetMsg((uint)Cmd.GmcommandResp);//使用gm指令回调
 
-        //先找个地方初始化一下
-         var refs = new Refs();
-        //TODO移动到进游戏后？
-        ReqGmList();
+        ////先找个地方初始化一下
+        // var refs = new Refs();
+        ////TODO移动到进游戏后？
+        //ReqGmList();
     }
     public override void OnNetMsgLister(uint protoIDInt, byte[] buffer)
     {
