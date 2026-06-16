@@ -77,7 +77,7 @@ public class ChatControl : BaseControl<ChatControl>
             channelId = channelId,
             uniqueId = uniqueId
         };
-        SendNetMsg((uint)Cmd.ChatGetInfoReq, req);
+        //SendNetMsg((uint)Cmd.ChatGetInfoReq, req);
     }
 
     void ChatGetInfoResp(ChatGetInfoResp resp)

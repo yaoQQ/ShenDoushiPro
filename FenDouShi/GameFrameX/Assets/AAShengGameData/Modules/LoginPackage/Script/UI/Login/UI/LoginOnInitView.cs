@@ -117,7 +117,8 @@ public class LoginOnInitView : BaseView
 
         else if (view.createBtn == clickedButton)
         {
-            string playerName = view.createAccount.asTextField.text;
+           // string playerName = view.createAccount.asTextField.text;
+            string playerName = "123";
             if (string.IsNullOrEmpty(playerName))
             {
                 MessageBoxVo msgVo = new MessageBoxVo();

@@ -75,7 +75,7 @@ public class UnityWebSocketManager : Singleton<UnityWebSocketManager>
         {
             Logger.PrintColor("white", $"发送消息： protoID={protoID} 总长度.length={all.Count}");
         }
-        socket.SendAsync(all.ToArray());
+        //socket.SendAsync(all.ToArray());
     }
     public void RegisterEventHandler(uint protoID, WebMessageReceive handler)
     {
